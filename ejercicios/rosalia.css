@@ -1,33 +1,106 @@
 body {
-    background-color: #f9f9f9;
+  background-color: #f9f9f9;
 }
 
 .encabezado {
-    background-color: #ffffff;
-    height: 76px;
-    width: 100%;
-    border-bottom: 2px solid #dbdbdb;
-    left: 0%;
-    top: 0%;
-    right: 0%;
-    bottom: 0%;
-    position: absolute;
+  background-color: #ffffff;
+  height: 76px;
+  width: 100%;
+  border-bottom: 1px solid #dbdbdb;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  position: absolute;
 }
 
 .encuadroImagen {
-    background-color: #ffffff;
-    margin-top: 115px;
-    margin-left: 315px;
-    margin-right: 312px;
-    margin-bottom: 53px;
-    height: 598px;
-    left: 0%;
-    top: 0%;
-    right: 0%;
-    bottom: 0%;
+  position: relative;
+  border: 1px solid #dbdbdb;
+  background-color: #ffffff;
+  margin-top: 115px;
+  margin-left: 315px;
+  margin-right: 312px;
+  margin-bottom: 53px;
+  height: 596px;
+  width: 816px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
-.zonaImagen {
-    width: 33.26%;
-    height: 100%;
+.zonaFoto {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  height: 598px;
+  width: 479px;
+  border-right: 1px solid #efefef;
+}
+
+.zonaSeguir {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  margin-left: 480px;
+  height: 70px;
+  width: 336px;
+  border-bottom: 1px solid #efefef;
+}
+
+.zonaComentarios {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  margin-left: 480px;
+  margin-top: 71px;
+  width: 336px;
+  height: 376px;
+  border-bottom: 1px solid #efefef;
+}
+
+.zonaLikes {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  margin-left: 480px;
+  margin-top: 448px;
+  width: 336px;
+  height: 93px;
+  border-bottom: 1px solid #efefef;
+}
+
+.zonaIniciarSesion {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  margin-left: 480px;
+  margin-top: 542px;
+  width: 336px;
+  height: 55px;
+}
+
+#sesion{
+  color: grey;
+  top: 0%;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  font-size: 17px;
+  margin-left: 17px;
+  margin-bottom: 15px;
+  padding: 0px;
+  margin-top: 9px;
+}
+#sesion2{
+    color: #005cb5;
 }
