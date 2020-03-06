@@ -1,0 +1,224 @@
+@media (prefers-color-scheme: dark) {
+  html {
+    background-color: #454545;
+    color: white;
+    text-shadow: 0 black;
+  }
+
+  .bloque {
+    background-color: #c9bcb7;
+    border: 1px solid #c9bcb7;
+    display: block;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 10pt;
+    padding: 1%;
+    margin: 5%;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  html {
+    background-color: #cccc;
+  }
+
+  .bloque {
+    background-color: #f0e0d6;
+    border: 1px solid #d9bfb7;
+    display: block;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 10pt;
+    padding: 1%;
+    margin: 5%;
+  }
+}
+
+.contenido {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.menu {
+  color: white;
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  background-color: #33354d;
+  height: 6%;
+}
+
+.menu2 {
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+}
+
+.boton_menu {
+  background-color: blue;
+  color: white;
+  height: 100%;
+  width: 5.4%;
+  position: absolute;
+}
+
+.boton_menu2 {
+  background-color: blue;
+  color: white;
+  height: 100%;
+}
+
+.enlaces {
+  text-decoration: none;
+  color: white;
+}
+
+.frame {
+  width: 100%;
+  height: 500px;
+}
+
+.footer {
+  background-color: blue;
+  color: red;
+  text-align: center;
+  height: 20px;
+  width: 100%;
+}
+
+#indice {
+  margin-top: 70px;
+}
+
+#boton {
+  background-color: blue;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: wait;
+}
+
+#circle {
+  list-style-type: circle;
+}
+
+#square {
+  list-style-type: square;
+}
+
+#none {
+  list-style-type: none;
+}
+
+#color_textos {
+  color: blue;
+}
+
+#tipo_fuente {
+  font-family: courier;
+}
+
+#tamaño_texto {
+  font-size: 30px;
+}
+
+#alinear_texto {
+  text-align: center;
+}
+
+#bordes_color {
+  border: 4px solid green;
+}
+
+#atributo_id {
+  margin-left: 43px;
+}
+
+.atributo_class {
+  margin-left: 43px;
+}
+
+table {
+  width: 100%;
+}
+
+#horario_titulo {
+  text-align: center;
+}
+
+#recreo_titulo {
+  text-align: center;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+table#t01 tr:nth-child(even) {
+  background-color: #eee;
+}
+
+table#t01 tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+table#t01 th {
+  background-color: black;
+  color: white;
+}
+
+#boton_css {
+  position: absolute;
+  left: 535px;
+  top: 425px;
+}
+
+#boton_html {
+  position: absolute;
+  left: 185px;
+  top: 425px;
+}
+
+.clearfix {
+  overflow: auto;
+  border: 3px solid #4caf50;
+}
+
+#float_derecha {
+  float: left;
+  width: 150px;
+  height: 150px;
+}
+
+#backToTop {
+  background-color: red;
+  padding: 1%;
+  float: right;
+  position: sticky;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  top: 90%;
+}
+
+#back {
+  text-decoration: none;
+  color: black;
+}

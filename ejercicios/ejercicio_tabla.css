@@ -1,0 +1,77 @@
+body{
+  background-color: #e0e1eb;
+}
+table {
+  margin-left: 100px;
+  width:5%;
+  border: 2px solid #CCC;
+  border-collapse: collapse;
+}
+
+
+th, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 30px;
+}
+#lol{
+ background-color: purple;
+ align-items: center;
+}
+#hola{
+vertical-align: top;
+margin-top: 0px;
+padding:revert;
+}
+
+#pedro{
+  writing-mode: vertical-rl;
+  text-align: center;
+  margin-right: 0px;
+  padding: 20px;
+
+}
+#caracol{
+  background-color: green;
+  text-align: center;
+}
+#azul{
+  background-color: blue;
+}
+#soida{
+ text-align: right;
+  vertical-align: bottom;
+  padding: revert;
+}
+#r{
+  font-family: verdana;
+  font-style: bold;
+  transform: rotate(45deg);
+  border-bottom: 1px solid  black;
+}
+#celdar{
+  font-family: verdana;
+  background-color: red;
+}
+#insta{
+  color: rgb(0, 8, 115);
+}
+#instapapelera{
+  text-align: center;
+}
+#html{
+  text-align: center;
+}
+#maquetacion{
+  margin-left: 300px;
+  margin-right: 300px;
+}
+#pie_de_foto{
+  text-align: center;
+}
+#foto_tokyo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}

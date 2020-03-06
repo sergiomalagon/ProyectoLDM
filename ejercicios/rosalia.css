@@ -1,0 +1,33 @@
+body {
+    background-color: #f9f9f9;
+}
+
+.encabezado {
+    background-color: #ffffff;
+    height: 76px;
+    width: 100%;
+    border-bottom: 2px solid #dbdbdb;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    position: absolute;
+}
+
+.encuadroImagen {
+    background-color: #ffffff;
+    margin-top: 115px;
+    margin-left: 315px;
+    margin-right: 312px;
+    margin-bottom: 53px;
+    height: 598px;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+}
+
+.zonaImagen {
+    width: 33.26%;
+    height: 100%;
+}

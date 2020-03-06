@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actividades>
+  <actividad>
+    <horario>16:15 - 17:30</horario>
+    <lugar>Patio</lugar>
+    <numero>1</numero>
+    <nombre>Futbol</nombre>
+  </actividad>
+<!--No me gusta-->
+  <actividad>
+    <horario>16:15 - 17:30</horario>
+    <lugar>Patio</lugar>
+    <numero>2</numero>
+    <nombre>Ping-Pong</nombre>
+  </actividad>
+<!--No me gusta-->
+
+  <actividad>
+    <horario>16:15 - 17:30</horario>
+    <lugar>Patio</lugar>
+    <numero>3</numero>
+    <nombre>Baloncesto</nombre>
+  </actividad>
+<!--No me gusta-->
+
+  <actividad>
+    <horario>17:30 - 19:00</horario>
+    <lugar>Salon de Actos</lugar>
+    <numero>13</numero>
+    <nombre>Karaoke</nombre>
+  </actividad>
+
+<!--No me gusta-->
+
+  <actividad>
+    <horario>17:30 - 19:00</horario>
+    <lugar>C2</lugar>
+    <numero>4</numero>
+    <nombre>Hackaton</nombre>
+  </actividad>
+<!--No me gusta-->
+
+
+  <actividad>
+    <horario>17:30 - 19:00</horario>
+    <lugar>Biblioteca</lugar>
+    <numero>5</numero>
+    <nombre>Poker</nombre>
+  </actividad>
+
+<!--No me gusta-->
+
+  <actividad>
+    <horario>17:30 - 19:00</horario>
+    <lugar>Biblioteca</lugar>
+    <numero>6</numero>
+    <nombre>Parchis</nombre>
+  </actividad>
+<!--No me gusta-->
+
+  <actividad>
+    <horario>17:30 - 19:00</horario>
+    <lugar>Biblioteca</lugar>
+    <numero>7</numero>
+    <nombre>Ajedrez</nombre>
+  </actividad>
+<!--No me gusta-->
+
+  <actividad>
+    <horario>17:30 - 19:00</horario>
+    <lugar>Bar</lugar>
+    <numero>8</numero>
+    <nombre>Mus</nombre>
+  </actividad>
+<!--No me gusta-->
+
+  <actividad>
+    <horario>19:00 - 19:30</horario>
+    <lugar>Bar</lugar>
+    <numero>null</numero>
+    <nombre>CHOCOLATE + BIZCOCHOS</nombre>
+  </actividad>
+<!--comida-->
+  <actividad>
+    <horario>19:30 - 21:00</horario>
+    <lugar>null</lugar>
+    <numero>null</numero>
+    <nombre>Continuacion Ajedrez y Juegos de Mesa</nombre>
+  </actividad>
+<!--No me gusta-->
+
+  <actividad>
+    <horario>19:30 - 21:00</horario>
+    <lugar>C2 y C3</lugar>
+    <numero>10</numero>
+    <nombre>Counter Strike Global Ofensive</nombre>
+  </actividad>
+<!--si-->
+  <actividad>
+    <horario>19:30 - 21:00</horario>
+    <lugar>C6 y C8</lugar>
+    <numero>11</numero>
+    <nombre>League Of Legends</nombre>
+  </actividad>
+<!--No me gusta-->
+
+  <actividad>
+    <horario>20:00 - 21:00</horario>
+    <lugar>Salon de Actos</lugar>
+    <numero>null</numero>
+    <nombre>Presentacion Libro de Poemas</nombre>
+  </actividad>
+<!--No me gusta-->
+
+</actividades>

@@ -1,0 +1,25 @@
+
+
+
+function mostrarMenu() {
+  if (document.getElementById("indice").hidden == false) {
+    document.getElementById("indice").hidden = true;
+    document.getElementById("momentobromomentohermano").style["margin-top"] = "6%";
+  } else {
+    document.getElementById("indice").hidden = false;
+    document.getElementById("momentobromomentohermano").style["margin-top"] = "1%";
+
+
+  }
+}
+
+
+//function validacion() {
+//var formularios = document.getElementsByName('name');
+//var elementos = document.getElementsByTagName('tagName');
+
+//Array.from(elemetos).forEach(function(valor,indice,array){
+//  console.log("En el indice" + indice + "hay este valor" + valor);
+//}
+
+//}

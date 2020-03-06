@@ -1,0 +1,67 @@
+html{
+  background-color: lightblue;
+}
+table#t01{
+  background-color: white;
+  border: collapse;
+}
+table#t01 tr:nth-child(even) {
+  background-color: rgb(128,128,128);
+  color: black;
+}
+table#t01 tr:nth-child(odd) {
+ background-color: #000000;
+ color: white;
+}
+.resultado{
+  text-align: center;
+}
+table#t02{
+  margin-left: 100px;
+  width: 5px;
+  border: 1px solid black;
+  border-collapse: separate;
+  background-color: white;
+}
+th, td{
+  border: 1px solid black;
+}
+#titulo{
+  text-align: center;
+}
+#poema{
+  font-style: italic;
+}
+.jargonfile{
+  background-color: #409abf;
+  font-family: sans-serif;
+}
+.textojargon{
+  font-family: sans-serif;
+}
+#gnu{
+  font-family: sans-serif;
+  color: white;
+  background-color: #76b9d5;
+}
+#precodigo{
+  background-color: white;
+}
+#duis{
+  vertical-align: middle;
+}
+#autem{
+  text-align: left;
+}
+#vel{
+  vertical-align: middle;
+}
+#in{
+  text-align: left;
+}
+#iriure{
+  text-align: left;
+}
+#hendrerit{
+  text-align: left;
+}
