@@ -6,32 +6,21 @@
   <title>Sergio Malagon Martin</title>
   <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
   <link rel="stylesheet" href="hoja_estilos.css" />
+  <link rel="stylesheet" href="indexLayout.css" />
   <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" />
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
   <script src="menu.js?31012020"></script>
 </head>
-<p id="top"></p>
 
 <body>
   <!--version 07/03/2020-->
-  <div class="menu">
-    <button type="button" name="button" class="boton_menu" onclick="mostrarMenu()">
-      MENU
-    </button>
-    <div class="menu2">
-      <button type="button" name="button" class="boton_menu2">HTML</button>
-      <button type="button" name="button" class="boton_menu2">
-        <a href="ejercicios.html" class="enlaces">EJERCICIOS</a>
-      </button>
-      <button type="button" name="button" class="boton_menu2">
-        <a href="examenes.html" class="enlaces">EXAMEN</a>
-      </button>
-    </div>
-  </div>
-  <div id="backToTop">
-    <a href="#top" id="back">↑</a>
+  <div class="introduccion">
+    <span class="text1">Sergio Malagon Martin</span>
+    <span class="text2">Entornos De Desarrollo</span>
   </div>
 
-  <div id="indice">
+
+  <div id="indice" hidden=true>
     <h1>INDICE</h1>
     <pre id="marcadores">
         <a href="#que_es_htmlh3">¿Que es html?</a>
@@ -75,9 +64,6 @@
         <a href="#javascript">JavaScript</a>
         </pre>
   </div>
-
-  <hr />
-
   <div class="bloque" id="ocultarMenu">
     <div class="contenido">
       <h3 id="que_es_html">¿Que es html?</h3>
@@ -101,7 +87,7 @@
     </div>
   </div>
 
-  <div class="bloque" id="tipos_encabezados">
+  <section class="bloque" id="tipos_encabezados">
     <div class="contenido">
       <h3>Tipos de encabezados</h3>
       <h1>Esto es el encabezado h1</h1>
@@ -111,7 +97,7 @@
       <h5>Esto es el encabezado h5</h5>
       <h6>Esto es el encabezado h6</h6>
     </div>
-  </div>
+  </section>
 
   <div class="bloque" id="parrafos">
     <div class="contenido">
@@ -1287,7 +1273,7 @@ Coche,Avion,Autobus</textarea>
     </div>
   </div>
 
-  <footer class="footer">SERGIO MALAGON MARTIN</footer>
+  <footer class="footer">SERGIO MALAGON MARTIN 2020</footer>
 </body>
 
 </html>

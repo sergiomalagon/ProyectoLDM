@@ -1,82 +1,3 @@
-@media (prefers-color-scheme: dark) {
-  html {
-    background-color: #454545;
-    color: white;
-    text-shadow: 0 black;
-    scroll-behavior: smooth;
-    overflow-y: scroll;
-  }
-
-  .bloque {
-    background-color: #c9bcb7;
-    border: 1px solid #c9bcb7;
-    display: block;
-    font-family: arial, helvetica, sans-serif;
-    font-size: 10pt;
-    padding: 1%;
-    margin: 5%;
-  }
-}
-
-@media (prefers-color-scheme: light) {
-  html {
-    background-color: #cccc;
-    scroll-behavior: smooth;
-    overflow-y: scroll;
-  }
-
-  .bloque {
-    background-color: #f0e0d6;
-    border: 1px solid #d9bfb7;
-    display: block;
-    font-family: arial, helvetica, sans-serif;
-    font-size: 10pt;
-    padding: 1%;
-    margin: 5%;
-  }
-}
-
-.contenido {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
-.menu {
-  color: white;
-  position: fixed;
-  left: 0%;
-  top: 0%;
-  right: 0%;
-  bottom: 0%;
-  background-color: #33354d;
-  height: 6%;
-}
-
-.menu2 {
-  width: 100%;
-  text-align: center;
-  display: inline-block;
-  margin: 0 auto;
-  height: 100%;
-  width: 100%;
-}
-
-.boton_menu {
-  background-color: blue;
-  color: white;
-  height: 100%;
-  width: 5.4%;
-  position: absolute;
-}
-
-.boton_menu2 {
-  background-color: blue;
-  color: white;
-  height: 100%;
-}
-
 .enlaces {
   text-decoration: none;
   color: white;
@@ -87,17 +8,6 @@
   height: 500px;
 }
 
-.footer {
-  background-color: blue;
-  color: red;
-  text-align: center;
-  height: 20px;
-  width: 100%;
-}
-
-#indice {
-  margin-top: 70px;
-}
 
 #boton {
   background-color: blue;
@@ -187,18 +97,6 @@ table#t01 th {
   color: white;
 }
 
-#boton_css {
-  position: absolute;
-  left: 535px;
-  top: 425px;
-}
-
-#boton_html {
-  position: absolute;
-  left: 185px;
-  top: 425px;
-}
-
 .clearfix {
   overflow: auto;
   border: 3px solid #4caf50;
@@ -210,35 +108,14 @@ table#t01 th {
   height: 150px;
 }
 
-#backToTop {
-  background-color: red;
-  padding: 1%;
-  float: right;
-  position: sticky;
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
-  border-bottom-left-radius: 4px;
-  border-bottom-right-radius: 4px;
-  top: 90%;
-}
-
-#back {
-  text-decoration: none;
-  color: black;
-}
-
-.verCompleto{
-  position: relative;
+.verCompleto {
+  position: absolute;
   text-decoration: none;
   list-style: none;
-  background-color: #303030;
+  background-color: #ff0000;
   color: white;
   border-radius: 24px;
   margin-left: 195px;
   padding: 5px 10px;
-  margin-top: -34px;
-  transition: 1s;
-}
-.verCompleto:hover{
-  border: 2px solid blue;
+  transition: 0.5s;
 }

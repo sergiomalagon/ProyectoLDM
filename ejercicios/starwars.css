@@ -1,6 +1,6 @@
 @font-face {
   font-family: StarJedi;
-  src: url(../fonts/Starjedi.ttf);
+  src: url(../font-awesome-4.7.0/fonts/Starjedi.ttf);
 }
 html {
   background: repeat url("../img/starwars1.jpeg");
