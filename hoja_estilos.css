@@ -226,3 +226,19 @@ table#t01 th {
   text-decoration: none;
   color: black;
 }
+
+.verCompleto{
+  position: relative;
+  text-decoration: none;
+  list-style: none;
+  background-color: #303030;
+  color: white;
+  border-radius: 24px;
+  margin-left: 195px;
+  padding: 5px 10px;
+  margin-top: -34px;
+  transition: 1s;
+}
+.verCompleto:hover{
+  border: 2px solid blue;
+}

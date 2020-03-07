@@ -4,10 +4,10 @@
 function mostrarMenu() {
   if (document.getElementById("indice").hidden == false) {
     document.getElementById("indice").hidden = true;
-    document.getElementById("momentobromomentohermano").style["margin-top"] = "6%";
+    document.getElementById("ocultarMenu").style["margin-top"] = "6%";
   } else {
     document.getElementById("indice").hidden = false;
-    document.getElementById("momentobromomentohermano").style["margin-top"] = "1%";
+    document.getElementById("cultarMenu").style["margin-top"] = "1%";
 
 
   }

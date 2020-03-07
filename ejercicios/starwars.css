@@ -1,0 +1,203 @@
+@font-face {
+  font-family: StarJedi;
+  src: url(../fonts/Starjedi.ttf);
+}
+html {
+  background: repeat url("../img/starwars1.jpeg");
+}
+.titulo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin-top: 37px;
+  margin-left: 29px;
+  margin-right: 62px;
+  background-image: url("../img/stars.png");
+  height: 61px;
+  width: 1339px;
+  border: 5px solid #d1111e;
+  padding: 0%;
+}
+#textoTitulo {
+  text-align: center;
+  color: yellow;
+  font-family: StarJedi;
+  font-size: 35px;
+  margin: 0%;
+  padding: 0%;
+}
+.introduccion {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-image: url("../img/volcan.png");
+  margin-top: 115px;
+  margin-left: 29px;
+  margin-right: 62px;
+  width: 1339px;
+  height: 115px;
+  border: 5px solid #d1111e;
+  padding: 0%;
+}
+
+#textoIntroduccion {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  padding: 0%;
+  margin-top: 1px;
+  font-size: 16px;
+  color: white;
+  text-align: justify;
+  font-size: 16px;
+}
+.zonaLateral {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin-top: 253px;
+  margin-left: 29px;
+  margin-right: 62px;
+  width: 288px;
+  height: 461px;
+  border: 5px solid #d1111e;
+  padding: 0%;
+  background-image: url("../img/stars.png");
+}
+#zonaLateral1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  padding: 0;
+  color: yellow;
+  margin-left: 20px;
+  margin-right: 16px;
+  margin-top: 0;
+  text-align: center;
+  font-size: 19px;
+}
+#zonaLateral2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  padding: 0;
+  color: yellow;
+  margin-left: 20px;
+  margin-right: 16px;
+  margin-top: 119px;
+  text-align: center;
+  font-size: 19px;
+}
+#zonaLateral3 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  padding: 0;
+  color: yellow;
+  margin-left: 20px;
+  margin-right: 16px;
+  margin-top: 285px;
+  text-align: center;
+  font-size: 19px;
+}
+
+.reparto {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin-top: 253px;
+  margin-left: 346px;
+  margin-right: 62px;
+  width: 1022px;
+  height: 461px;
+  border: 5px solid #d1111e;
+  padding: 0%;
+  background-image: url("../img/volcan.png");
+}
+#yump {
+  position: absolute;
+  margin-top: 263px;
+  margin-left: 460px;
+  width: 480px;
+  height: 184px;
+}
+#ywtco {
+  position: absolute;
+  margin-top: 19px;
+  margin-left: 460px;
+  height: 230px;
+  width: 480px;
+}
+.tb {
+  margin-left: 32px;
+  margin-top: 44px;
+}
+.tabla,
+td {
+  color: white;
+  border: 2px solid white;
+}
+#tituloReparto {
+  color: white;
+  font-family: StarJedi;
+  font-size: 23px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin-top: 5px;
+  margin-left: 35px;
+}
+
+.recaudacion {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin-top: 737px;
+  margin-left: 29px;
+  margin-right: 62px;
+  width: 1339px;
+  height: 115px;
+  border: 5px solid #d1111e;
+  padding: 0%;
+  background-image: url("../img/volcan.png");
+}
+
+#tituloRecaudacion {
+  color: white;
+  font-family: StarJedi;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+#textoRecaudacion {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  padding: 0;
+  color: white;
+  text-align: justify;
+  margin-top: 70px;
+  font-size: 18.5px;
+}
