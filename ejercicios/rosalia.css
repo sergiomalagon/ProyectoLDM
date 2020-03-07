@@ -86,7 +86,7 @@ body {
   width: 336px;
   height: 55px;
 }
-.miniaturaPerfilRosalia{
+.miniaturaPerfilRosalia {
   border-top-right-radius: 40px;
   border-top-left-radius: 40px;
   border-bottom-right-radius: 40px;
@@ -97,7 +97,7 @@ body {
   margin-left: 17px;
   margin-top: 17px;
 }
-#rosaliavt{
+#rosaliavt {
   top: 0%;
   right: 0%;
   left: 0%;
@@ -108,7 +108,7 @@ body {
   margin-left: 71px;
   margin-top: 20px;
 }
-#seguir{
+#seguir {
   color: blue;
   top: 0%;
   right: 0%;
@@ -120,7 +120,7 @@ body {
   margin-left: 151px;
   margin-top: 20px;
 }
-#localizacion{
+#localizacion {
   top: 0%;
   right: 0%;
   left: 0%;
@@ -130,7 +130,7 @@ body {
   margin-top: 37px;
   margin-left: 71px;
 }
-#sesion{
+#sesion {
   font-family: arial, helvetica, sans-serif;
   font-size: 10pt;
   color: grey;
@@ -144,31 +144,31 @@ body {
   padding: 0px;
   margin-top: 9px;
 }
-#sesion2{
+#sesion2 {
   color: #005cb5;
 }
-#guardar{
+#guardar {
   position: absolute;
   right: 13px;
   top: 8px;
 }
 
-#like{
+#likeIcono {
   position: absolute;
   left: 26px;
   top: 8px;
 }
-#comentar{
+#comentarIcono {
   position: absolute;
   left: 64px;
   top: 8px;
 }
-#compartir{
+#compartirIcono {
   position: absolute;
   left: 108px;
   top: 8px;
 }
-#meGusta{
+#meGustaIcono {
   top: 0%;
   right: 0%;
   left: 0%;
@@ -177,18 +177,18 @@ body {
   margin-left: 17px;
   padding: 0%;
 }
-#fecha{
+#fechaIcono {
   color: grey;
   top: 0%;
   right: 0%;
   left: 0%;
-  FONT-SIZE: smaller;
+  font-size: smaller;
   margin-top: -6px;
   margin-bottom: auto;
   margin-left: 17px;
   padding: 0%;
 }
-#busqueda{
+#busquedaIcono {
   text-align: center;
   color: grey;
   margin-left: 613px;
@@ -200,7 +200,7 @@ body {
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 3px;
 }
-#certificado{
+#certificado {
   position: absolute;
   color: blue;
   top: 0%;
@@ -208,10 +208,23 @@ body {
   left: 0%;
   bottom: 0%;
   padding: 0%;
+  margin-left: 135px;
+  margin-top: 25px;
 }
-#certificado2{
+#certificado2 {
   position: absolute;
   color: white;
+  top: 0%;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  padding: 0%;
+  margin-left: 136px;
+  margin-top: 25px;
+  font-size: 0.5rem;
+}
+
+#iconoVerificada{
   top: 0%;
   right: 0%;
   left: 0%;
