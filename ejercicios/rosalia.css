@@ -25,20 +25,42 @@ body {
   margin-left: 613px;
   margin-top: 25px;
   color: grey;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  font-style: none;
+  box-shadow: none;
+  text-shadow: none;
+  background-color: rgba(235, 235, 235, 0.856);
 }
 #barraVerticalEncabezado {
   position: absolute;
-  margin-left: ;
-  margin-top: ;
+  margin-left: 293px;
+  margin-top: 25px;
+  font-weight: bold;
+  font-size: 20px;
 }
 #iconoInsta {
-}
-@font-face {
-  font-family: "billabong";
-  src: url("./fonts/billabong.ttf");
+  position: absolute;
+  font-size: 1.5rem;
+  margin-top: 27px;
+  margin-left: 260px;
 }
 #textoInsta {
-  font-family: "billabong";
+  position: absolute;
+  font-family: "Engagement";
+  font-weight: none;
+  font-size: 35px;
+  margin-top: 17px;
+  margin-left: 310px;
+}
+#iconoBarraBusqueda {
+  position: absolute;
+  margin-left: 664px;
+  margin-top: 31px;
+  font-size: 0.7rem;
+  color: grey;
 }
 
 .encuadroImagen {
@@ -112,7 +134,7 @@ body {
   width: 336px;
   height: 55px;
 }
-.miniaturaPerfilRosalia {
+.miniaturaPerfil {
   border-top-right-radius: 40px;
   border-top-left-radius: 40px;
   border-bottom-right-radius: 40px;
@@ -133,6 +155,7 @@ body {
   position: absolute;
   margin-left: 71px;
   margin-top: 20px;
+  font-weight: bold;
 }
 #seguir {
   color: #3897f0;
@@ -210,7 +233,8 @@ body {
   top: 0%;
   right: 0%;
   left: 0%;
-  font-size: smaller;
+  font-size: 10px;
+  font-weight: lighter;
   margin-top: -6px;
   margin-bottom: auto;
   margin-left: 17px;
@@ -275,4 +299,99 @@ body {
   bottom: 0%;
   margin-top: 40px;
   margin-left: 70px;
+}
+
+#cargarComentarios {
+  top: 0%;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  padding: 0%;
+}
+#plus {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  padding: 0%;
+  margin-left: 170px;
+  margin-top: 118px;
+  font-size: 1rem;
+}
+#circulo {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  padding: 0%;
+  margin-left: 163px;
+  margin-top: 111px;
+  font-size: 2rem;
+}
+
+#antiguedadComentario1 {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  padding: 0%;
+  margin-left: 70px;
+  margin-top: 70px;
+  color: grey;
+  font-size: 13px;
+}
+#antiguedadComentario2 {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  padding: 0%;
+  margin-left: 70px;
+  margin-top: 230px;
+  color: grey;
+  font-size: 13px;
+}
+#responder{
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  padding: 0%;
+  margin-left: 115px;
+  margin-top: 230px;
+  color: grey;
+  font-size: 13px;
+}
+#nombrePerfil{
+  top: 0%;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  padding: 0px;
+  position: absolute;
+  margin-left: 71px;
+  margin-top: 205px;
+  font-weight: bold;
+}
+#miniaturaPerfil2{
+  position: absolute;
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  width: 35px;
+  height: 35px;
+  top: 0%;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  padding: 0px;
+  border: 2.5px solid #da2d79;
+  margin-left: 17px;
+  margin-top: 200px;
 }
