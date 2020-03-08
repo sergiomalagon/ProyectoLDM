@@ -14,11 +14,11 @@ function mostrarMenu() {
 }
 */
 
-function mostrarMenuEjericios() {
-  if (document.getElementById("mEE").hidden == true) {
-    document.getElementById("mEE").hidden = false;
+function mostrarMenu() {
+  if (document.getElementById("indiceScrip").hidden == true) {
+    document.getElementById("indiceScrip").hidden = false;
   } else {
-    document.getElementById("mEE").hidden = true;
+    document.getElementById("indiceScrip").hidden = true;
   }
 }
 

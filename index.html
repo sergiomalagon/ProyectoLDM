@@ -14,27 +14,32 @@
 <body>
   <!--version 08/03/2020-->
   <header class="menu">
-    <ul class="listaMenu">
-      <li class="opcionesLista"><a href="#" class="enlacesMenu">html</a></li>
-      <li class="opcionesLista"><a href="ejercicios.html" class="enlacesMenu">ejercicios</a></li>
-      <li class="opcionesLista"><a href="examenes.html" class="enlacesMenu">examenes</a></li>
-    </ul>
-    <a href="" class="indiceIconoEnlace"><i class="fa fa-bars" aria-hidden="true" id="indiceIcono"></i></a>
+    <div class="zonaMenu">
+      <ul class="listaMenu">
+        <li class="opcionesLista"><a href="" class="enlacesMenu">html</a></li>
+        <li class="opcionesLista"><a href="ejercicios.html" class="enlacesMenu">ejercicios</a></li>
+        <li class="opcionesLista"><a href="examenes.html" class="enlacesMenu">examenes</a></li>
+      </ul>
+    </div>
+
+    <div class="zonaIndice">
+      <a href="#" class="indiceIconoEnlace" onclick="mostrarMenu()"><i class="fa fa-bars" aria-hidden="true"></i></a>
+    </div>
   </header>
 
   <div class="introduccion">
     <div id="introduccionAux">
       <div class="introducion2">
-        <span class="text1">Sergio Malagon Martin</span>
+        <span class="text1">Sergio Malagón Martín</span>
         <span class="text2">Entornos De Desarrollo</span>
       </div>
     </div>
   </div>
 
-  <div class="indiceScrip">
+  <div id="indiceScrip" hidden=true>
     <section id="indice">
       <nav id="marcadores">
-        <a href="#que_es_htmlh3">¿Que es html?</a>
+        <a href="#que_es_html">¿Que es html?</a>
         <a href="#tipos_encabezados">Tipos de encabezados</a>
         <a href="#parrafos">Parrafos</a>
         <a href="#links">Links</a>
