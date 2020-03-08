@@ -5,8 +5,7 @@
   <meta charset="utf-8" />
   <title>Sergio Malagon Martin</title>
   <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
-  <link rel="stylesheet" href="hoja_estilos.css" />
-  <link rel="stylesheet" href="indexLayout.css" />
+  <link rel="stylesheet" href="index.css" />
   <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" />
   <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
   <script src="menu.js?03032020"></script>
@@ -14,89 +13,72 @@
 
 <body>
   <!--version 08/03/2020-->
-  <header class="introduccion">
+  <header class="menu">
+    <ul class="listaMenu">
+      <li class="opcionesLista"><a href="#" class="enlacesMenu">html</a></li>
+      <li class="opcionesLista"><a href="ejercicios.html" class="enlacesMenu">ejercicios</a></li>
+      <li class="opcionesLista"><a href="examenes.html" class="enlacesMenu">examenes</a></li>
+    </ul>
+    <a href="" class="indiceIconoEnlace"><i class="fa fa-bars" aria-hidden="true" id="indiceIcono"></i></a>
+  </header>
 
-
+  <div class="introduccion">
     <div id="introduccionAux">
       <div class="introducion2">
         <span class="text1">Sergio Malagon Martin</span>
         <span class="text2">Entornos De Desarrollo</span>
       </div>
     </div>
-
-    <div id="imagenEjerciciosAux">
-      <a href="#" onclick="mostrarMenuEjericios()">
-        <img src="img/study.png" alt="" class="menuEjercicios">
-      </a>
-    </div>
-
-    <div id="mEE" hidden=true>
-      <nav class="enlacesE">
-        <a href="#" class="enlacesEjercicios" id="ejericio1" onclick="mostrarEjericio1()">Ejercicio1</a>
-        <a href="#" class="enlacesEjercicios" id="ejericio2" onclick="mostrarEjericio2()">Ejercicio2</a>
-        <a href="#" class="enlacesEjercicios" id="ejericio3" onclick="mostrarEjericio3()">Ejercicio3</a>
-        <a href="#" class="enlacesEjercicios" id="rosalia" onclick="mostrarEjericio4()">Rosalia</a>
-        <a href="#" class="enlacesEjercicios" id="starWars" onclick="mostrarEjericio5()">Star Wars</a>
-      </nav>
-    </div>
-
-
-    <div>
-      <iframe src="ejercicios/ejercicio_tabla.html" frameborder="0" id="frame1" class="frames" hidden=true></iframe>
-      <iframe src="ejercicios/ejercicio1.html" frameborder="0" id="frame2" class="frames" hidden=true></iframe>
-      <iframe src="ejercicios/ejercicio2.html" frameborder="0" id="frame3" class="frames" hidden=true></iframe>
-      <iframe src="ejercicios/rosalia.html" frameborder="0" id="frame4" class="frames" hidden=true></iframe>
-      <iframe src="ejercicios/starwars.html" frameborder="0" id="frame5" class="frames" hidden=true></iframe>
-    </div>
-  </header>
-
-
-  <div id="indice" hidden=true>
-    <h1>INDICE</h1>
-    <nav id="marcadores">
-      <a href="#que_es_htmlh3">¿Que es html?</a>
-      <a href="#tipos_encabezados">Tipos de encabezados</a>
-      <a href="#parrafos">Parrafos</a>
-      <a href="#links">Links</a>
-      <a href="#imagenes">Imagenes</a>
-      <a href="#botones">Botones</a>
-      <a href="#listas">Listas</a>
-      <a href="#atributos_html">Atributos html</a>
-      <a href="#horizontal">HR</a>
-      <a href="#head">Head</a>
-      <a href="#pre">Pre</a>
-      <a href="#color_fondo">Color de fondo</a>
-      <a href="#color_texto">Color de texto</a>
-      <a href="#tipo_fuente">Tipo de fuente</a>
-      <a href="#tamañotexto">Tamaño texto</a>
-      <a href="#alineartexto">Alinear texto</a>
-      <a href="#formatos_texto">Formatos texto</a>
-      <a href="#citaciones_cortas">Citaciones cortas</a>
-      <a href="#citaciones">Citaciones</a>
-      <a href="#abreviaciones">Abreviaciones</a>
-      <a href="#informacion_contactos">Informacion de contactos</a>
-      <a href="#titulos">Titulos</a>
-      <a href="#orden_textos">Orden del texto</a>
-      <a href="#bordes">Bordes de color</a>
-      <a href="#atributos_css">Atributos css</a>
-      <a href="#hiperenlaces">Hiperenlaces</a>
-      <a href="#enlaces_locales">Enlaces locales</a>
-      <a href="#colores_enlaces">Colores de los enlaces</a>
-      <a href="#enlaces_imagenes">Enlaces en las imagenes</a>
-      <a href="#titulos_enlaces">Enlaces en los textos</a>
-      <a href="#marcadores">Marcadores</a>
-      <a href="#mapa_imagenes">Mapa imagenes</a>
-      <a href="#fondo_pagina">Fondo de la pagina</a>
-      <a href="#tablas">Tablas</a>
-      <a href="#bloquesyelementos">Bloques y elementos en linea</a>
-      <a href="#imagen_flotante">Imagen flotante</a>
-      <a href="#iframe">Iframe</a>
-      <a href="#formularios">Formularios</a>
-      <a href="#javascript">JavaScript</a>
-    </nav>
   </div>
-  <div class="bloque" id="ocultarMenu">
-    <div class="contenido">
+
+  <div class="indiceScrip">
+    <section id="indice">
+      <nav id="marcadores">
+        <a href="#que_es_htmlh3">¿Que es html?</a>
+        <a href="#tipos_encabezados">Tipos de encabezados</a>
+        <a href="#parrafos">Parrafos</a>
+        <a href="#links">Links</a>
+        <a href="#imagenes">Imagenes</a>
+        <a href="#botones">Botones</a>
+        <a href="#listas">Listas</a>
+        <a href="#atributos_html">Atributos html</a>
+        <a href="#horizontal">HR</a>
+        <a href="#head">Head</a>
+        <a href="#pre">Pre</a>
+        <a href="#color_fondo">Color de fondo</a>
+        <a href="#color_texto">Color de texto</a>
+        <a href="#tipo_fuente">Tipo de fuente</a>
+        <a href="#tamañotexto">Tamaño texto</a>
+        <a href="#alineartexto">Alinear texto</a>
+        <a href="#formatos_texto">Formatos texto</a>
+        <a href="#citaciones_cortas">Citaciones cortas</a>
+        <a href="#citaciones">Citaciones</a>
+        <a href="#abreviaciones">Abreviaciones</a>
+        <a href="#informacion_contactos">Informacion de contactos</a>
+        <a href="#titulos">Titulos</a>
+        <a href="#orden_textos">Orden del texto</a>
+        <a href="#bordes">Bordes de color</a>
+        <a href="#atributos_css">Atributos css</a>
+        <a href="#hiperenlaces">Hiperenlaces</a>
+        <a href="#enlaces_locales">Enlaces locales</a>
+        <a href="#colores_enlaces">Colores de los enlaces</a>
+        <a href="#enlaces_imagenes">Enlaces en las imagenes</a>
+        <a href="#titulos_enlaces">Enlaces en los textos</a>
+        <a href="#marcadores">Marcadores</a>
+        <a href="#mapa_imagenes">Mapa imagenes</a>
+        <a href="#fondo_pagina">Fondo de la pagina</a>
+        <a href="#tablas">Tablas</a>
+        <a href="#bloquesyelementos">Bloques y elementos en linea</a>
+        <a href="#imagen_flotante">Imagen flotante</a>
+        <a href="#iframe">Iframe</a>
+        <a href="#formularios">Formularios</a>
+        <a href="#javascript">JavaScript</a>
+      </nav>
+    </section>
+  </div>
+
+  <div class="bloque">
+    <section class="contenido">
       <h3 id="que_es_html">¿Que es html?</h3>
       <ul>
         <li>HTML significa Hyper Text Markup Language</li>
@@ -115,7 +97,7 @@
           representar el contenido de la página
         </li>
       </ul>
-    </div>
+    </section>
   </div>
 
   <section class="bloque" id="tipos_encabezados">
