@@ -69,12 +69,55 @@ html {
   float: left;
 }
 
+.subrayado {
+  background-color: #2a2a2a;
+  position: relative;
+  height: 0.4em;
+  margin: inherit;
+  padding: inherit;
+  top: 0.8em;
+  bottom: 0;
+}
+
+.mostrar:hover .subrayado {
+  background-color: red;
+}
+
+.listaMenuPeque {
+  list-style-type: none;
+  margin: auto;
+  padding: 0px;
+}
+
+.MenuPeque {
+  width: initial;
+  display: none;
+  position: relative;
+  background-color: #2a2a2a;
+  z-index: 1;
+  margin-top: 0.80em;
+  list-style-type: none;
+}
+
+.MenuPeque a {
+  text-align: center;
+  text-transform: uppercase;
+  color: #bbb0b0;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.mostrar:hover .MenuPeque {
+  display: block;
+}
+
 .enlacesMenu {
   text-transform: uppercase;
   color: #bbb0b0;
   text-decoration: none;
   display: block;
-  padding: 0 1em;
+  padding: 0 3em;
 }
 
 /*///////////////////////////////////////////////////////////////////////////////*/
