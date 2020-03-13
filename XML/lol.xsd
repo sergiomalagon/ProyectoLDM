@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="campeon">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="rol" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="skin">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:attribute name="url" type="xs:string"/>
+                <xs:element name="nombre" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="habilidad">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:attribute name="tipo" type="xs:string"/>
+                <xs:element name="nombre" type="xs:string"/>
+                <xs:element name="descripcion" type="xs:string"/>
+                <xs:element name="forma" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="habilidades">
+        <xs:sequence>
+            <xs:element name="habilidad" type="xs:habilidad"/>
+        </xs:sequence>
+    </xs:element>
+
+    <xs:element name="skins">
+        <xs:sequence>
+            <xs:element name="skin" type="xs:skin"/>
+        </xs:sequence>
+    </xs:element> 

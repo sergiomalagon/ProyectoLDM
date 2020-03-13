@@ -1,8 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!--CAMILLE,CASSIOPEIA,GHO'GATH,CORKI,DARIUS,DIANA,DR.MUNDO,
 DRAVEN,EKKO,ELISE-->
 
 <campeones>
+
 	<campeon url="https://euw.leagueoflegends.com/es-es/champions/camille/">
 		<nombre>CAMILLE</nombre>
 		<roles>
@@ -24,17 +25,17 @@ DRAVEN,EKKO,ELISE-->
 				<descripcion></descripcion>
 				<forma></forma>
 			</habilidad>
-			<habilidad tipo="HABILIDAD">
+			<habilidad tipo="NORMAL">
 				<nombre></nombre>
 				<descripcion></descripcion>
 				<forma></forma>
 			</habilidad>
-			<habilidad tipo="HABILIDAD">
+			<habilidad tipo="NORMAL">
 				<nombre></nombre>
 				<descripcion></descripcion>
 				<forma></forma>
 			</habilidad>
-			<habilidad tipo="HABILIDAD">
+			<habilidad tipo="NORMAL">
 				<nombre></nombre>
 				<descripcion></descripcion>
 				<forma></forma>

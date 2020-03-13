@@ -22,7 +22,11 @@ function mostrarMenu() {
   }
 }
 
-
+function mostrarTest() {
+   document.getElementById("testFormatos").style["background"]="lightgreen";
+   setTimeout 
+ 
+}
 
 
 //function validacion() {
