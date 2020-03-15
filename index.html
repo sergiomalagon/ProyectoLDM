@@ -69,7 +69,7 @@
     </div>
 
     <div id="indiceScrip" hidden=true>
-        <section id="indice">
+        <div id="indice">
             <nav id="marcadores">
                 <a href="#que_es_html">¿Que es html?</a>
                 <a href="#tipos_encabezados">Tipos de encabezados</a>
@@ -101,7 +101,7 @@
                 <a href="#colores_enlaces">Colores de los enlaces</a>
                 <a href="#enlaces_imagenes">Enlaces en las imagenes</a>
                 <a href="#titulos_enlaces">Enlaces en los textos</a>
-                <a href="#marcadores">Marcadores</a>
+                <a href="#marcador">Marcadores</a>
                 <a href="#mapa_imagenes">Mapa imagenes</a>
                 <a href="#fondo_pagina">Fondo de la pagina</a>
                 <a href="#tablas">Tablas</a>
@@ -111,7 +111,7 @@
                 <a href="#formularios">Formularios</a>
                 <a href="#javascript">JavaScript</a>
             </nav>
-        </section>
+        </div>
     </div>
 
     <div class="bloque" id="que_es_html">
@@ -147,7 +147,7 @@
     <div class="bloque" id="parrafos">
         <h3>Parrafos</h3>
         <p>En HTML los parrafos estan definidos con el tag
-            < 'p'>
+            &ltp>
         </p>
     </div>
 
@@ -155,9 +155,9 @@
         <section>
             <h3>Links</h3>
             <p>
-                En HTML los links estan definidos con el tag
-                < 'a'>, para añadir una direccion tenemos que poner la url a conticion de "href=". Para poner un texto
-                    personalizado al enlace, tenemos que escribit texto antes de cerrar el tag
+                En HTML los links estan definidos con el tag &lta>, para añadir una direccion tenemos que poner la url a
+                conticion de "href=". Para poner un texto personalizado al enlace, tenemos que escribit texto antes de
+                cerrar el tag
             </p>
             <p>Atributo target</p>
             <ul>
@@ -180,7 +180,7 @@
             <h3 id="imagenes">Imagenes</h3>
             <p>
                 En HTML las Imagenes estan definidas con el tag
-                < 'img'> y esta compuesta por los siguientes atributos
+                &ltimg> y esta compuesta por los siguientes atributos
             </p>
             <ul>
                 <li>
@@ -205,32 +205,30 @@
         <h3>Botones</h3>
         <p>
             En HTML los botones estan definidos con el tag
-            < 'button'> entre los cules monstraremos el texto a mostrar en el boton
+            &ltbutton> entre los cules monstraremos el texto a mostrar en el boton
         </p>
         <p>
             Tambien se pueden añadir enlaces a los botones usando el atributo "href="
         </p>
         <p>Ejemplos</p>
-        <button id="boton" type="button" name="button">
-            <a href="https://www.w3schools.com"></a>Enlace
-        </button>
+        <button id="boton" type="button" name="button">Enlace</button>
     </div>
 
     <div class="bloque" id="listas">
         <h3>Listas</h3>
         <p>
             En HTML las listas estan definidas varios tags, el unico tag que prevalece entre todos es el tag
-            < 'li'> que define a un nuevo elemento dentro de las listas
+            &ltli> que define a un nuevo elemento dentro de las listas
         </p>
         <p>Tipos de listas</p>
         <ul>
             <li>
-                < 'ul'> = listas no ordenadas
+                &ltul> = listas no ordenadas
             </li>
         </ul>
         <ol>
             <li>
-                < 'ol'> = listas ordenadas
+                &ltol> = listas ordenadas
             </li>
         </ol>
         <p>
@@ -279,18 +277,17 @@
         <ul>
             <li>
                 href = definido por el tag
-                < 'a'> sirve para agregar links de otras paginas
+                &lta> sirve para agregar links de otras paginas
             </li>
-            <li>src = definido por el tag
-                < 'img'> sirve para agregar fotos</li>
+            <li>src = definido por el tag &ltimg> sirve para agregar fotos</li>
+
             <li>
-                width y height = definido por el tag
-                < 'wight'>
-                    < 'height'> sirve para controlar el tamaño en pixeles de las imagenes
+                width y height = definido por el tag &ltwight> y &ltheight> sirve para controlar el tamaño en pixeles de
+                las imagenes
             </li>
             <li>
                 alt = definido por el tag
-                < 'img'> sirve para señalar el texto a mostrar cuando no se puede mostrar la imagen
+                &ltimg> sirve para señalar el texto a mostrar cuando no se puede mostrar la imagen
             </li>
             <li>
                 style = es el atributo usado para especificar el estilo de un elemento como el color, la fuente, el
@@ -309,11 +306,9 @@
     <div class="bloque" id="horizontal">
         <h3>HR</h3>
         <p>Definicion</p>
-        <p>En HTML las lineas horizontales se definene con
-            < 'hr'>
-        </p>
+        <p>En HTML las lineas horizontales se definene con &lthr></p>
         <p>Ejemplos</p>
-        <hr color="red" />
+        <hr id="hr">
     </div>
 
     <div class="bloque" id="head">
@@ -321,13 +316,13 @@
         <p>Definicion</p>
         <p>
             En HTML entre los tag
-            < 'head'> se introducen todos los metadatos de la pagina
+            &lthead> se introducen todos los metadatos de la pagina
         </p>
     </div>
 
     <div class="bloque" id="pre">
         <h3>Elemento
-            < 'pre'>
+            &ltpre>
         </h3>
         <p>Definicion</p>
         <p>Crea un contenedor con un estilo tal y como tu lo escribes</p>
@@ -338,7 +333,7 @@
                   es
                         un
                                parrafo
-                                          con el tag <'pre'> </pre>
+                                          con el tag &ltpre> </pre>
     </div>
 
     <div class="bloque" id="color_fondo">
@@ -363,7 +358,7 @@
         <p>Sirve para cambiar el tipo de fuente del texto</p>
         <p>Se usa el tag "font-family: "fuente" "</p>
         <p>Ejemplo</p>
-        <p id="tipo_fuente">Esto es un parrafo con otra fuente</p>
+        <p id="fuente">Esto es un parrafo con otra fuente</p>
     </div>
 
     <div class="bloque" id="tamañotexto">
@@ -388,46 +383,46 @@
         <p>Definicion</p>
         <ul>
             <li>
-                < b>
-                    <b>
-                        = texto en negrita
-                    </b>
+                &ltb>
+                <b>
+                    = texto en negrita
+                </b>
             </li>
             <li>
-                < strong>
-                    <strong> = texto importante (mas importante que negrita)</strong>
+                &ltstrong>
+                <strong> = texto importante (mas importante que negrita)</strong>
             </li>
             <li>
-                < i>
-                    <i> = texto en cursiva</i>
+                &lti>
+                <i> = texto en cursiva</i>
             </li>
             <li>
-                < em>
-                    <em> = enfatizar texto (mas importante que italica)</em>
+                &ltem>
+                <em> = enfatizar texto (mas importante que italica)</em>
             </li>
             <li>
-                < mark>
-                    <mark> = texto marcado</mark>
+                &ltmark>
+                <mark> = texto marcado</mark>
             </li>
             <li>
-                < small>
-                    <small> = texto pequeño</small>
+                &ltsmall>
+                <small> = texto pequeño</small>
             </li>
             <li>
-                < del>
-                    <del> = texto borrado</del>
+                &ltdel>
+                <del> = texto borrado</del>
             </li>
             <li>
-                < ins>
-                    <ins> = texto insertado</ins>
+                &ltins>
+                <ins> = texto insertado</ins>
             </li>
             <li>
-                < sub>
-                    <sub> = texto subpuesto</sub>
+                &ltsub>
+                <sub> = texto subpuesto</sub>
             </li>
             <li>
-                < sup>
-                    <sup> = texto superpuesto</sup>
+                &ltsup>
+                <sup> = texto superpuesto</sup>
             </li>
         </ul>
     </div>
@@ -591,7 +586,7 @@
         <a href="https://www.w3schools.com/html/" title="Pagina de HTML">w3schools</a>
     </div>
 
-    <div class="bloque" id="marcadores">
+    <div class="bloque" id="marcador">
         <h3>Marcadores</h3>
         <p>Definicion</p>
         <p>
@@ -631,25 +626,25 @@
         <h3>Tablas</h3>
         <p>Definicion</p>
         <p>Con el tag
-            < 'table'> podemos generar tablas html</p>
+            &lttable> podemos generar tablas html</p>
         <p>Parametros con ejemplos</p>
         <p>Crear una tabla</p>
         <ul>
             <li>
                 <p>Se utiliza el tag
-                    < 'tr'> para definir las filas</p>
+                    &lttr> para definir las filas</p>
             </li>
 
             <li>
                 <p>
                     Con el tag
-                    < 'th'> definimos el encabezado de la tabla, por defecto este viene en negrita y centrado
+                    &ltth> definimos el encabezado de la tabla, por defecto este viene en negrita y centrado
                 </p>
             </li>
 
             <li>
                 <p>La tablas se rellena con datos que van entre los tags
-                    < 'td'>
+                    &lttd>
                 </p>
             </li>
 
@@ -690,9 +685,7 @@
                 </p>
             </li>
             <li>
-                <p>Para añadir un titular a la tabla usamos el tag
-                    < 'caption'>
-                </p>
+                <p>Para añadir un titular a la tabla usamos el tag &ltcaption></p>
             </li>
             <li>
                 <p>
@@ -765,7 +758,7 @@
                 <td>Entornos de desarollo</td>
                 <td>Entornos de desarollo</td>
                 <td>Lenguaje de marcas</td>
-                >
+
             </tr>
         </table>
 
@@ -792,12 +785,12 @@
                 <li>blockquote: defne una cita de otra fuente</li>
                 <li>canvas: sirve para dibujar graficos</li>
                 <li>dd: sirve para describir un termino/nombre en una lista de descripcion, la lista se define con el
-                    tag <'dl'> y cada termino se define con <'dt'>
+                    tag &ltdl> y cada termino se define con &ltdt>
                 </li>
                 <li>div: define una seccion o division del documento HTML</li>
                 <li>fieldset: sirve para crear campos para rellenar</li>
                 <li>figure: define contenido como ilustraciones, diagramas, fotos, etc...</li>
-                <li>figcaption: define el pie de foto para un elemento<'figure'>
+                <li>figcaption: define el pie de foto para un elemento &ltfigure>
                 </li>
                 <li>footer: define el pie de pagina del documento</li>
                 <li>form: es un tag utilizado para definir una zona en la que se puede introducir texto</li>
@@ -872,25 +865,25 @@
                 <li>label: define una etiqueta para:</li>
                 <ul>
                     <li>
-                        < 'button'>
+                        &ltbutton>
                     </li>
                     <li>
-                        < 'input'>
+                        &ltinput>
                     </li>
                     <li>
-                        < 'meter'>
+                        &ltmeter>
                     </li>
                     <li>
-                        < 'output'>
+                        &ltoutput>
                     </li>
                     <li>
-                        < 'progress'>
+                        &ltprogress>
                     </li>
                     <li>
-                        < 'select'>
+                        &ltselect>
                     </li>
                     <li>
-                        < 'textarea'>
+                        &lttextarea>
                     </li>
                 </ul>
                 <p>
@@ -925,7 +918,7 @@
                     horarios de forma legible por la maquina
                 </li>
                 <li>tt: es como el
-                    < 'kbd'> pero no tiene soporte en HTML 5</li>
+                    &ltkbd> pero no tiene soporte en HTML 5</li>
                 <li>var: define una variable</li>
             </ul>
         </div>
@@ -978,10 +971,10 @@
         <ul>
 
             <li>
-                < 'form'>: es el elementos que defina una forma que es usada para recolectar informacion
+                &ltform>: es el elementos que defina una forma que es usada para recolectar informacion
             </li>
             <li>
-                < 'input'>: es el elemento mas importante
+                &ltinput>: es el elemento mas importante
             </li>
 
             <ul>
@@ -1142,7 +1135,7 @@
             </ul>
 
             <li>
-                <'select'>: elemento que define una lista desplegable
+                &ltselect>: elemento que define una lista desplegable
             </li>
 
             <ul>
@@ -1179,8 +1172,8 @@
 
             </ul>
             <li>
-                <'textarea'>: defina un campo de texto rows: atributo que especifica el numero visible de lineas en la
-                    zona de texto
+                &lttextarea>: defina un campo de texto rows: atributo que especifica el numero visible de lineas en la
+                zona de texto
             </li>
             <ul>
                 <li>cols: atributo que especifica el ancho de la zona de texto Tambien se puede definir el tamaño de la
@@ -1195,7 +1188,7 @@
 
 
             <li>
-                <'datalist'>: define una lista con opciones pre-definidas
+                &ltdatalist>: define una lista con opciones pre-definidas
             </li>
 
             <div class="formulario">

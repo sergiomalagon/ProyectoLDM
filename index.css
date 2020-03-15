@@ -248,6 +248,10 @@ html {
   cursor: wait;
 }
 
+#hr {
+  color: red;
+}
+
 #circle {
   list-style-type: circle;
 }
@@ -264,7 +268,7 @@ html {
   color: blue;
 }
 
-#tipo_fuente {
+#fuente {
   font-family: courier;
 }
 
