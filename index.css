@@ -6,7 +6,6 @@ body {
   width: 100%;
   height: 100%;
   margin: auto;
-  padding: auto;
 }
 
 ::-webkit-scrollbar {
@@ -44,7 +43,6 @@ html {
   overflow: hidden;
 }
 
-/*///////////////////////////////////////////////////////////////////////////////*/
 
 .menu {
   background-color: #2a2a2a;
@@ -120,7 +118,6 @@ html {
   padding: 0 3em;
 }
 
-/*///////////////////////////////////////////////////////////////////////////////*/
 
 .introduccion {
   height: 100vh;
@@ -163,7 +160,7 @@ html {
   }
 }
 
-/*///////////////////////////////////////////////////////////////////////////////*/
+
 
 .zonaIndice {
   position: absolute;
@@ -216,16 +213,20 @@ html {
   padding-left: 1em;
 }
 
-.footer {
-  background-color: blue;
-  color: red;
-  text-align: center;
-  align-items: center;
-  height: 40px;
-  width: 100%;
+.pie {
+  margin-top: 3em;
 }
 
-/*///////////////////////////////////////////////////////////////////////////////*/
+.footer {
+  background-color: #2a2a2a;
+  color: #bbb0b0;
+  text-align: center;
+  max-height: 3em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+
 
 .enlaces {
   text-decoration: none;
