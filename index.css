@@ -87,6 +87,7 @@ html {
   padding: 0px;
 }
 
+
 .MenuPeque {
   width: initial;
   display: none;
@@ -104,6 +105,10 @@ html {
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+}
+
+.MenuPeque a:hover{
+  color: #dfd7d7;
 }
 
 .mostrar:hover .MenuPeque {
