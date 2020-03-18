@@ -14,10 +14,11 @@ body {
   scroll-behavior: smooth;
 }
 
+
 html {
-  background-color: #f9f9f9;
   scroll-behavior: smooth;
-  overflow-y: scroll;
+  overflow: auto;
+  background-color: #f9f9f9;
   scrollbar-color: lightgrey whitesmoke;
   scrollbar-width: thin;
 }
