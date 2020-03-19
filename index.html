@@ -28,6 +28,7 @@
                                     <a href="/ejercicios/ejercicio2.html" target="_blank">Ejericios 2</a>
                                     <a href="/ejercicios/rosalia.html" target="_blank">Rosalia</a>
                                     <a href="/ejercicios/starwars.html" target="_blank">Star Wars</a>
+                                    <a href="/ejercicios/formulario.html" target="_blank">Formulario</a>
                                 </div>
                             </li>
                         </ul>
@@ -684,9 +685,9 @@
                     <li>type="radio": define un boton de radio(para seleccionar una o varias opciones)
 
                         <div class="formulario">
-                            <input type="radio" name="sexo" value="Hombre" /> Hombre
-                            <input type="radio" name="sexo" value="Mujer" /> Mujer
-                            <input type="radio" name="sexo" value="Prefiero no decirlo" /> Prefiero no decirlo
+                            <input type="radio" name="sexo" value="Hombre" id="hombre" /> <label for="hombre">Hombre</label> <br>
+                            <input type="radio" name="sexo" value="Mujer" id="mujer" /> <label for="mujer"> Mujer</label><br>
+                            <input type="radio" name="sexo" value="Prefiero no decirlo" id="otro" /><label for="otro"> Prefiero no decirlo</label><br>
                         </div>
                     </li>
 
@@ -728,18 +729,15 @@
 
                     <li> type="checkbox"=define una checkbox
                         <div class="formulario">
-                            <input type="checkbox" name="vehiculo1" value="Coche" />Coche
-                            <br />
-                            <input type="checkbox" name="vehiculo2" value="Avion" />Avion
-                            <br />
-                            <input type="checkbox" name="vehiculo3" value="Autobus" />Autobus
-                            <br />
+                            <input type="checkbox" name="vehiculo1" value="Coche" id="coche" /> <label for="coche">Coche</label> <br />
+                            <input type="checkbox" name="vehiculo2" value="Avion" id="avion" /> <label for="avion">Avion</label> <br />
+                            <input type="checkbox" name="vehiculo3" value="Autobus" id="autobus" /> <label for="autobus">Autobus</label> <br />
                         </div>
                     </li>
 
                     <li>type="color": es usado para campos que deben contener un color
                         <div class="formulario">
-                            <input type="color" name="color" value=""> Elige tu color favorito <br />
+                            <input type="color" name="color"> Elige tu color favorito <br />
                         </div>
                     </li>
 

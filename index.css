@@ -108,7 +108,7 @@ html {
   display: block;
 }
 
-.MenuPeque a:hover{
+.MenuPeque a:hover {
   color: #f1eaea;
 }
 
@@ -342,6 +342,5 @@ table#t01 th {
 
 #float_derecha {
   float: right;
-  width: 150px;
-  height: 150px;
+  height: 89px;
 }
