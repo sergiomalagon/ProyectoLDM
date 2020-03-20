@@ -338,9 +338,10 @@ table#t01 th {
 
 .clearfix {
   border: 3px solid #4caf50;
+  overflow: auto;
 }
 
 #float_derecha {
   float: right;
-  height: 89px;
+  height: 150px;
 }

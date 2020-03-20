@@ -1,0 +1,49 @@
+html {
+    background: repeat url("../img/ads.jpg");
+    overflow: hidden;
+}
+
+body {
+    margin: auto;
+}
+
+::-webkit-scrollbar {
+    width: 0.1px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: green;
+    opacity: 10%;
+}
+
+
+.formulario {
+    background-color: whitesmoke;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 2px solid green;
+    overflow-y: overlay;
+    height: 100vh;
+}
+
+.formulario1 {
+    margin-left: 1%;
+}
+
+.formulario2 {
+    margin-left: 2%;
+}
+.metodoPago{
+    margin-left: 7%;
+}
+.textoInicial {
+    color: aliceblue;
+    position: absolute;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans';
+    top: 0;
+}
+
+.foto {
+    width: 100%;
+}

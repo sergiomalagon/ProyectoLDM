@@ -1,11 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css">
     <title>Formulario</title>
 </head>
+
 <body>
-    aborguesa
+    <div class="formulario">
+        <img src="../img/movilAsia.jpg" alt="" class="foto">
+        <p class="textoInicial">moviles</p>
+        <div class="formulario1">
+            <form action="">
+
+                <p>Marcas</p>
+                <div class="formulario2">
+                    <input type="radio" name="marca" id="iphone"> <label for="iphone">iPhone</label> <br>
+                    <input type="radio" name="marca" id="pixel"> <label for="pixel">Pixel</label> <br>
+                    <input type="radio" name="marca" id="xiaomi"> <label for="xiaomi">Xiaomi</label> <br>
+                </div>
+
+                <p>Color</p>
+                <div class="formulario2">
+                    <select name="" id="">
+                        <option value="amarillo">Amarillo</option>
+                        <option value="azul">Azul</option>
+                        <option value="blanco">Blanco</option>
+                        <option value="bronce">Bronce</option>
+                    </select>
+                </div>
+
+                <p>RAM</p>
+                <div class="formulario2">
+                    <select name="" id="">
+                        <option value="amarillo">1 GB RAM</option>
+                        <option value="azul">2 GB RAM</option>
+                        <option value="blanco">6 GB RAM</option>
+                        <option value="bronce">12 GB RAM</option>
+                    </select>
+                </div>
+
+                <p>Extras</p>
+                <div class="formulario2">
+                    <input type="checkbox" name="auriculares" id="auriculares"> <label for="auriculares">Auriculares</label> <br>
+                    <input type="checkbox" name="funda" id="funda"> <label for="funda">Funda</label> <br>
+                    <input type="checkbox" name="protectorPantalla" id="protectorPantalla"> <label for="protectorPantalla">Protector pantalla</label> <br>
+                    <input type="checkbox" name="adaptadorEnchufe" id="adaptadorEnchufe"> <label for="adaptadorEnchufe">Adapatador extra para el enchufe</label> <br>
+                </div>
+
+                <p>Informacion de pago</p>
+                <div class="formulario2">
+                    Nombre: <input type="text" name="nombre" id=""> <br>
+                    Apellidos: <input type="text" name="" id=""> <br>
+                    Telefono: <input type="tel" name="" id=""> <br>
+                    Correo Electronico: <input type="email" name="" id=""> <br>
+                </div>
+
+                <p>Metodo de pago</p>
+                <input type="radio" name="metodoPago" id="tarjeta"> <label for="tarjeta">Tarjeta de Credito/ Debito</label> <br>
+                <div class="metodoPago">
+                    Titular de la tarjeta: <br> <input type="text" name="" id=""> <br>
+                    Numero de tarjeta: <br> <input type="text" name="" id=""> <br>
+                    Mes de caducidad: <br> <input type="month" name="" id=""> <br>
+                    Codigo CVC2: <br> <input type="number" name="" id=""> <br>
+                </div>
+                <input type="radio" name="metodoPago" id="paypal"> <label for="paypal">PayPal</label> <br>
+                <div class="metodoPago">
+                    <input type="button" value="PayPal">
+                </div>
+
+                <p>Otros</p>
+                <div class="formulario2">
+                    <textarea name="" id="" cols="100" rows="7"></textarea>
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
+
 </html>
