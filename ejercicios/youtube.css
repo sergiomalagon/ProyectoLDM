@@ -1,0 +1,336 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../font-awesome-4.7.0/fonts/Roboto-Regular.ttf);
+}
+
+html {
+    font-family: "Roboto", Arial, sans-serif;
+}
+
+body {
+    margin: auto;
+    background: #f9f9f9;
+}
+
+.barraSuperior {
+    background: #ffffff;
+    box-shadow: 5px 7px 15px #888888;
+    height: 56px;
+    position: relative;
+}
+
+.zonaVideo {
+    position: relative;
+    margin: 24px;
+    margin-bottom: 0;
+    width: 966px;
+    height: 543px;
+    float: left;
+}
+
+.zonaLateral {
+    position: relative;
+    display: grid;
+    margin-top: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.zonaCanal {
+    position: relative;
+    margin-left: 24px;
+    float: left;
+    width: 966px;
+    height: 119px;
+}
+
+.informacionVideos {
+    margin-left: 24px;
+    margin-right: 24px;
+    width: 966px;
+    box-shadow: 2px 4px 12px #888888;
+    float: left;
+    position: relative;
+    height: 108px;
+}
+
+.siguiente {
+    position: relative;
+    display: flex;
+    margin-top: 14px;
+    margin-bottom: 16px;
+    padding: 0;
+    height: 94px;
+    float: left;
+}
+
+.recomendacion {
+    position: relative;
+    display: flex;
+    margin-bottom: 8px;
+    padding: 0;
+    height: 94px;
+    float: left;
+}
+
+.videoRecomendacion {
+    width: 168px;
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+}
+
+.tags {
+    font-size: 12px;
+    color: #065FD4;
+    font-weight: 400;
+    margin-top: 23px;
+    margin-bottom: 0;
+}
+
+.tituloVideo {
+    color: #030303;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 1px;
+    margin-bottom: 9px;
+}
+
+.visualizaciones {
+    color: #606060;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+}
+
+#iconoCirculo {
+    font-size: 5px;
+}
+
+.infoRe {
+    margin-left: 9px;
+    display: inline;
+}
+
+.tituloRe {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: rgb(3, 3, 3);
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 16px;
+}
+
+.canalRe {
+    margin-top: 6px;
+    margin-bottom: 3px;
+    color: rgb(96, 96, 96);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.visualRe {
+    margin: 0;
+    color: rgb(96, 96, 96);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.barraSeparacionRecomendados {
+    color: #e0e0e0;
+    margin: 0;
+    margin-bottom: 12px;
+
+}
+
+.fotoCanal {
+    height: 48px;
+    width: 48px;
+    border-radius: 30px;
+    margin-top: 16px;
+    float: left;
+}
+
+.nombreCanal {
+    float: left;
+    margin-left: 15px;
+    margin-top: 9px;
+}
+
+.nombreC {
+    margin: 0;
+    margin-top: 15px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+}
+
+.subsC {
+    margin: 0;
+    margin-top: 3px;
+    color: rgb(96, 96, 96);
+    font-size: 12px;
+    font-weight: 400;
+
+}
+
+.iconoNombreLuis {
+    color: rgb(96, 96, 96);
+}
+
+.enlaces {
+    color: #065FD4;
+}
+
+.descripcion {
+    margin-top: 85px;
+    margin-left: 62px;
+}
+
+.descripcion p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.botonSub {
+    float: right;
+    background: #cc0000;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 2px;
+    margin: 0;
+    margin-top: 23px;
+}
+
+#sub {
+    font-size: 14px;
+    line-height: normal;
+    letter-spacing: 0.007px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+}
+
+.ratio {
+    float: right;
+    margin-top: 57px;
+}
+
+.perfil {
+    text-transform: capitalize;
+    float: right;
+    color: white;
+    background: #bf360c;
+    border-radius: 32px;
+    width: 32px;
+    height: 32px;
+    margin-top: 12px;
+    margin-right: 30px;
+}
+
+.perfil p {
+    margin: 0;
+    margin-top: 7px;
+    margin-left: 11px;
+}
+
+.campana {
+    color: rgb(96, 96, 96);
+    float: right;
+    margin-top: 18px;
+    margin-right: 34px;
+    font-size: 18px;
+}
+
+.menu2 {
+    margin-top: 20px;
+    margin-right: 32px;
+    color: rgb(96, 96, 96);
+    float: right;
+    display: flex;
+    font-size: 16px;
+}
+
+.menu2 i {
+    padding: 1px;
+}
+
+.upload {
+    color: rgb(96, 96, 96);
+    float: right;
+    margin-top: 21px;
+    margin-right: 43px;
+}
+
+.upload i {
+    position: absolute;
+}
+
+#masBlanco {
+    color: white;
+    font-size: 10px;
+    margin-top: 3px;
+    margin-left: 1.7px;
+}
+
+.barraBusqueda {
+    position: absolute;
+    margin-left: 380px;
+    margin-top: 12px;
+    border: 1px solid #d3d3d3;
+    border-radius: 2px;
+    height: 30px;
+    width: 638px;
+    display: flex;
+}
+
+.barraBusqueda .barra {
+    padding: 0;
+    margin: 0;
+    width: 638px;
+}
+
+.barraBusqueda .botonBusqueda {
+    width: 63px;
+}
+
+.menu {
+    float: left;
+    margin-top: 22px;
+    margin-left: 27px;
+}
+
+.icono {
+    color: red;
+    float: left;
+    margin-top: 19px;
+    margin-left: 27px;
+    font-size: 20px;
+}
+
+.iconoNombre {
+    color: black;
+    margin: 0;
+    float: right;
+    font-weight: bold;
+}
+
+.es {
+    font-weight: 100;
+    font-size: 9px;
+}
+
+.botonSig {
+    float: left;
+    margin: 0;
+}
+.botonSig p{
+    margin: 0;
+}

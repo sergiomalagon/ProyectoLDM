@@ -8,7 +8,7 @@ body {
 }
 
 ::-webkit-scrollbar {
-    width: 0.1px;
+    width: 0%;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -18,11 +18,12 @@ body {
 
 
 .formulario {
+    scrollbar-width: none;
     background-color: whitesmoke;
     margin-left: 30%;
     margin-right: 30%;
     border: 2px solid green;
-    overflow-y: overlay;
+    overflow-y: auto;
     height: 100vh;
 }
 
@@ -33,9 +34,11 @@ body {
 .formulario2 {
     margin-left: 2%;
 }
-.metodoPago{
+
+.metodoPago {
     margin-left: 7%;
 }
+
 .textoInicial {
     color: aliceblue;
     position: absolute;

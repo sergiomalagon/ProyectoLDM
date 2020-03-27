@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="formulario.css">
+    <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+    <script>tinymce.init({ selector: 'textarea' });</script>
     <title>Formulario</title>
 </head>
 
@@ -63,20 +65,17 @@
                 <div class="metodoPago">
                     Titular de la tarjeta: <br> <input type="text" name="" id=""> <br>
                     Numero de tarjeta: <br> <input type="text" name="" id=""> <br>
-                    Mes de caducidad: <br> <input type="month" name="" id=""> <br>
+                    Fecha de caducidad: <br> <input type="month" name="" id=""> <br>
                     Codigo CVC2: <br> <input type="number" name="" id=""> <br>
                 </div>
                 <input type="radio" name="metodoPago" id="paypal"> <label for="paypal">PayPal</label> <br>
                 <div class="metodoPago">
                     <input type="button" value="PayPal">
                 </div>
-
                 <p>Otros</p>
-                <div class="formulario2">
-                    <textarea name="" id="" cols="100" rows="7"></textarea>
-                </div>
-            </form>
         </div>
+        <textarea name="" id="" cols="100" rows="10"></textarea>
+        </form>
     </div>
 </body>
 
