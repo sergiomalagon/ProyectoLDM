@@ -91,19 +91,27 @@
             <input type="checkbox" name="youtube" id="yt"> <label for="yt" class="texto">Canal de YouTube</label> <br>
             <input type="checkbox" name="wowForums" id="wow"> <label for="wow" class="texto">Foro de World of Warcraft</label> <br>
             <input type="checkbox" name="4channel" id="4chan"> <label for="4chan" class="texto">4chan <span id="v"> /v/ </span></label> <br>
-            <label for="" class="texto">Clase favorita </label><select class="" name="listaDesplegable">
-                <option value="Guerrero">Guerrero</option>
-                <option value="Paladin">Paladin</option>
-                <option value="Cazador">Cazador</option>
-                <option value="Picaro">Picaro</option>
-                <option value="Sacerdote">Sacerdote</option>
-                <option value="Caballero">Caballero de la muerte</option>
-                <option value="Chaman">Chaman</option>
-                <option value="Mago">Mago</option>
-                <option value="Brujo">Brujo</option>
-                <option value="Monje">Monje</option>
-                <option value="Druida">Druida</option>
-                <option value="CazadorDemonios">Cazador de Demonios</option>
+            <label for="" class="texto">Clase favorita </label>
+            <select class="" name="listaDesplegable">
+                <optgroup label="Personajes Buenos">
+                    <option value="Guerrero">Guerrero</option>
+                    <option value="Paladin">Paladin</option>
+                    <option value="Cazador">Cazador</option>
+                    <option value="Picaro">Picaro</option>
+                </optgroup>
+                <optgroup label="Personajes Medianos">
+                    <option value="Sacerdote">Sacerdote</option>
+                    <option value="Caballero">Caballero de la muerte</option>
+                    <option value="Chaman">Chaman</option>
+                    <option value="Mago">Mago</option>
+                </optgroup>
+                <optgroup label="Personajes Horribles">
+                    <option value="Brujo">Brujo</option>
+                    <option value="Monje">Monje</option>
+                    <option value="Druida">Druida</option>
+                    <option value="CazadorDemonios">Cazador de Demonios</option>
+                </optgroup>
+
             </select> <br>
             <Label class="texto">Introduce tu nivel de satisfaccion con la pagina</Label> <input type="text" name="vehiculos" list="lista" />
             <datalist id="lista">
