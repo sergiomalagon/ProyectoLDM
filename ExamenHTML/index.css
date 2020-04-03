@@ -78,7 +78,6 @@ body {
 
 .solapados {
     position: relative;
-    margin: 80px;
     font-size: 18px;
     font-family: Contenido;
     color: white;
@@ -110,35 +109,44 @@ body {
     padding: 15px;
     z-index: 1;
 }
-#solapado1:hover{
+
+#solapado1:hover {
     z-index: 99999999;
 }
-#solapado2:hover{
+
+#solapado2:hover {
     z-index: 99999999;
 }
-#solapado3:hover{
+
+#solapado3:hover {
     z-index: 99999999;
 }
-.botonSecreto{
+
+.botonSecreto {
     font-family: Contenido;
     padding: 15px;
     margin: 0;
     color: white;
     background-color: #ffb31a;
 }
-.textoLargo{
+
+.textoLargo {
     font-family: Contenido;
     justify-content: left;
     color: white;
     font-size: 18px;
     margin: 0;
+    overflow-y: scroll;
     margin-top: 22px;
+    height: 100px;
 }
-.contenidoTextoLargo{
+
+.contenidoTextoLargo {
     margin-top: 54px;
     margin-left: 80px;
     margin-right: 80px;
-    height: 100px;
-    overflow-y: scroll;
 }
 
+#v {
+    color: blueviolet;
+}
