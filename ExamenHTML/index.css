@@ -1,0 +1,144 @@
+@font-face {
+    font-family: Titulos;
+    src: url("BRLNSDB.TTF");
+}
+
+@font-face {
+    font-family: Contenido;
+    src: url("arlrdbd.ttf");
+}
+
+
+html {
+    background-color: black;
+    overflow-y: auto;
+}
+
+body {
+    margin: auto;
+}
+
+.titulo {
+    font-family: Titulos;
+    color: #ffb31a;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.titulosMediana {
+    font-family: Titulos;
+    color: #ffb31a;
+    font-size: 20px;
+    margin: 0;
+}
+
+.contenido {
+    position: relative;
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.contenidoVease {
+    margin-top: 54px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.texto {
+    font-family: Contenido;
+    justify-content: left;
+    color: white;
+    font-size: 18px;
+    margin: 0;
+    margin-top: 22px;
+}
+
+.video {
+    margin-top: 12px;
+}
+
+.textoVease {
+    font-family: Contenido;
+    justify-content: left;
+    font-size: 18px;
+    color: #ffb31a;
+    margin: 0;
+    margin-top: 22px;
+    text-decoration: none;
+}
+
+#fechaEditar {
+    margin: 0;
+    margin-top: 27px;
+    font-size: 18px;
+    font-family: Contenido;
+    color: white;
+}
+
+.solapados {
+    position: relative;
+    margin: 80px;
+    font-size: 18px;
+    font-family: Contenido;
+    color: white;
+}
+
+#solapado1 {
+    left: 100px;
+    position: absolute;
+    background-color: red;
+    width: 100px;
+    padding: 15px;
+    z-index: 3;
+}
+
+#solapado2 {
+    left: 200px;
+    position: absolute;
+    background-color: yellowgreen;
+    width: 100px;
+    padding: 15px;
+    z-index: 2;
+}
+
+#solapado3 {
+    left: 300px;
+    position: absolute;
+    background-color: blue;
+    width: 100px;
+    padding: 15px;
+    z-index: 1;
+}
+#solapado1:hover{
+    z-index: 99999999;
+}
+#solapado2:hover{
+    z-index: 99999999;
+}
+#solapado3:hover{
+    z-index: 99999999;
+}
+.botonSecreto{
+    font-family: Contenido;
+    padding: 15px;
+    margin: 0;
+    color: white;
+    background-color: #ffb31a;
+}
+.textoLargo{
+    font-family: Contenido;
+    justify-content: left;
+    color: white;
+    font-size: 18px;
+    margin: 0;
+    margin-top: 22px;
+}
+.contenidoTextoLargo{
+    margin-top: 54px;
+    margin-left: 80px;
+    margin-right: 80px;
+    height: 100px;
+    overflow-y: scroll;
+}
+
