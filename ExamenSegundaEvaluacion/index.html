@@ -10,8 +10,9 @@
 </head>
 
 <body>
-    <h1 class="titulo" id="leroy">Leeeeeeeeeroy Jenkins</h1>
-
+    <header>
+        <h1 class="titulo" id="leroy">Leeeeeeeeeroy Jenkins</h1>
+    </header>
     <main>
         <div class="contenido">
             <h3 class="titulosMediana">Biografia</h3>
@@ -91,19 +92,25 @@
             <input type="checkbox" name="wowForums" id="wow"> <label for="wow" class="texto">Foro de World of Warcraft</label> <br>
             <input type="checkbox" name="4channel" id="4chan"> <label for="4chan" class="texto">4chan <span id="v"> /v/ </span></label> <br>
             <label for="" class="texto">Clase favorita </label><select class="" name="listaDesplegable">
-                <option value="coche">Guerrero</option>
-                <option value="coche">Paladin</option>
-                <option value="coche">Cazador</option>
-                <option value="coche">Picaro</option>
-                <option value="coche">Sacerdote</option>
-                <option value="coche">Caballero de la muerte</option>
-                <option value="coche">Chaman</option>
-                <option value="coche">Mago</option>
-                <option value="coche">Brujo</option>
-                <option value="coche">Monje</option>
-                <option value="coche">Druida</option>
-                <option value="coche">Cazador de Demonios</option>
+                <option value="Guerrero">Guerrero</option>
+                <option value="Paladin">Paladin</option>
+                <option value="Cazador">Cazador</option>
+                <option value="Picaro">Picaro</option>
+                <option value="Sacerdote">Sacerdote</option>
+                <option value="Caballero">Caballero de la muerte</option>
+                <option value="Chaman">Chaman</option>
+                <option value="Mago">Mago</option>
+                <option value="Brujo">Brujo</option>
+                <option value="Monje">Monje</option>
+                <option value="Druida">Druida</option>
+                <option value="CazadorDemonios">Cazador de Demonios</option>
             </select> <br>
+            <Label class="texto">Introduce tu nivel de satisfaccion con la pagina</Label> <input type="text" name="vehiculos" list="lista" />
+            <datalist id="lista">
+                <option value="Buenardo">Buenardo</option>
+                <option value="Malardo">Malardo</option>
+                <option value="Si">Si</option>
+            </datalist><br>
             <textarea name="" id="" cols="30" rows="10"></textarea> <br>
             <button type="submit">Enviar</button>
         </form>
@@ -170,6 +177,16 @@
             </tr>
         </table>
     </div>
+
+    <section class="contenido">
+        <article>
+            <p class="titulosMediana">Guerrero</p>
+            <p class="texto">Desde las primeras guerras, <i> los héroes de todas las razas han buscado dominar el arte de la batalla </i>.
+                Los guerreros combinan fuerza, liderazgo y un <b> vasto conocimiento de armas y armaduras</b> para causar estragos en combate glorioso.
+                Algunos protegen las líneas frontales con sus escudos, obstaculizando al enemigo mientras sus aliados los apoyan con hechizos y arcos.
+                Otros dejan de lado el escudo y descargan su furia contra el objetivo más cercano, empleando una gran diversidad de armas mortíferas.</p>
+        </article>
+    </section>
     <footer>
         <button onclick="ocultarLeroy()" class="botonSecreto">Secreto</button>
     </footer>
