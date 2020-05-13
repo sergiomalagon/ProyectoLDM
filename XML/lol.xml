@@ -11,52 +11,45 @@ DRAVEN,EKKO,ELISE-->
 		</roles>
 		<region></region>
 		<dificultad>MODERADA</dificultad>
-		<descripcion>Convertida en un arma viviente diseñada para operar fuera de la ley, 
-		Camille es la jefa de espías del clan Ferros, una elegante agente de élite que se 
-		asegura de que nada amenace el funcionamiento de Piltover ni de Zaun. 
-		Su adaptabilidad y minuciosidad hacen que vea la técnica descuidada como una
-		humillación con la que hay que terminar. Dotada de una mente tan aguda como 
-		las hojas que esgrime, ha emprendido una búsqueda de la perfección a través 
-		de las mejoras hextech a las que se ha sometido, mejoras que han llevado
-		a muchos a preguntarse si no será más máquina que mujer.</descripcion>
+		<descripcion>Convertida en un arma viviente diseñada para operar fuera de la ley, Camille es la jefa de espías del clan Ferros, una elegante agente de élite que se asegura de que nada amenace el funcionamiento de Piltover ni de Zaun. Su adaptabilidad y minuciosidad hacen que vea la técnica descuidada como una humillación con la que hay que terminar. Dotada de una mente tan aguda como las hojas que esgrime, ha emprendido una búsqueda de la perfección a través de las mejoras hextech a las que se ha sometido, mejoras que han llevado a muchos a preguntarse si no será más máquina que mujer.</descripcion>
 		<habilidades>
 			<habilidad tipo="PASIVA">
 				<nombre>DEFENSA ADAPTABLE</nombre>
 				<descripcion>Los ataques básicos a campeones le otorgan un escudo equivalente al 20% de la vida máxima de Camille que la protege de su tipo de daño (físico o mágico) durante un corto periodo de tiempo.</descripcion>
-				<forma>Humana</forma>
+				<forma>Unica</forma>
 			</habilidad>
-			<habilidad tipo="NORMAL">
+			<habilidad tipo="BASICA">
 				<nombre>PROTOCOLO DE PRECISIÓN</nombre>
 				<descripcion>El próximo ataque de Camille inflige daño adicional y otorga más velocidad de movimiento. Este hechizo puede lanzarse de nuevo durante un breve periodo de tiempo, de modo que inflige una cantidad adicional de daño considerablemente mayor si Camille deja un tiempo entre los dos ataques.</descripcion>
-				<forma>Humana</forma>
+				<forma>Unica</forma>
 			</habilidad>
-			<habilidad tipo="NORMAL">
+			<habilidad tipo="BASICA">
 				<nombre>BARRIDO TÁCTICO</nombre>
 				<descripcion>Tras un breve lapso de tiempo, Camille provoca una explosión en forma de cono que inflige daño. Los enemigos en la mitad exterior se ralentizan y reciben daño adicional al mismo tiempo que curan a Camille.</descripcion>
-				<forma>Humana</forma>
+				<forma>Unica</forma>
 			</habilidad>
-			<habilidad tipo="NORMAL">
+			<habilidad tipo="BASICA">
 				<nombre>TIRO DE GANCHO</nombre>
 				<descripcion>Camille se desliza hasta un muro, salta y golpea a los enemigos al caer.</descripcion>
-				<forma>Humana</forma>
+				<forma>Unica</forma>
 			</habilidad>
 			<habilidad tipo="ULTI">
 				<nombre>ULTIMÁTUM HEXTECH</nombre>
 				<descripcion>Camille se desliza hacia un campeón objetivo y lo ancla en el área. También inflige daño mágico adicional al objetivo con sus ataques básicos.</descripcion>
-				<forma>Humana</forma>
+				<forma>Unica</forma>
 			</habilidad>
 		</habilidades>
 		<skins>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Camille_0.jpg">
 				<nombre>CAMILLE</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Camille_1.jpg">
 				<nombre>PROGRAMA CAMILLE</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Camille_2.jpg">
 				<nombre>CAMILLE AQUELARRE</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Camille_10.jpg">
 				<nombre>CAMILLE IG</nombre>
 			</skin>
 		</skins>
@@ -74,46 +67,46 @@ DRAVEN,EKKO,ELISE-->
 			<habilidad tipo="PASIVA">
 				<nombre>ELEGANCIA SERPENTINA</nombre>
 				<descripcion>Cassiopeia obtiene velocidad de movimiento por nivel, pero no puede comprar botas.</descripcion>
-				<forma>Humana</forma>
+				<forma>Unica</forma>
 			</habilidad>
-			<habilidad tipo="NORMAL">
+			<habilidad tipo="BASICA">
 				<nombre>EXPLOSIÓN PERJUDICIAL</nombre>
 				<descripcion>Cassiopeia, tras unos instantes, inunda una zona con veneno, lo que aumenta su velocidad de movimiento si alcanza a un campeón enemigo.</descripcion>
-				<forma>Humana</forma>
+				<forma>Unica</forma>
 			</habilidad>
-			<habilidad tipo="NORMAL">
+			<habilidad tipo="BASICA">
 				<nombre>MIASMA</nombre>
 				<descripcion>Cassiopeia lanza varias nubes de veneno que ralentizan, anclan e infligen un daño leve a los enemigos que las atraviesen. Los enemigos anclados no pueden usar habilidades de movimiento.</descripcion>
-				<forma></forma>
+				<forma>Unica</forma>
 			</habilidad>
-			<habilidad tipo="NORMAL">
+			<habilidad tipo="BASICA">
 				<nombre>COLMILLO DOBLE</nombre>
 				<descripcion>Cassiopeia lanza un ataque que inflige más daño a los objetivos envenenados y que la cura un porcentaje del daño infligido. Si el objetivo muere al recibir este ataque, Cassiopeia recupera maná.</descripcion>
-				<forma>Humana</forma>
+				<forma>Unica</forma>
 			</habilidad>
 			<habilidad tipo="ULTI">
 				<nombre>MIRADA PETRIFICANTE</nombre>
 				<descripcion>Cassiopeia libera con los ojos un remolino de energía mágica que aturde a los enemigos que tenga de cara a ella y ralentiza a los que le estén dando la espalda.</descripcion>
-				<forma>Humana</forma>
+				<forma>Unica</forma>
 			</habilidad>
 		</habilidades>
 		<skins>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Cassiopeia_0.jpg">
 				<nombre>CASSIOPEIA</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Cassiopeia_1.jpg">
 				<nombre>CASSIOPEIA DESDESPERADA</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Cassiopeia_2.jpg">
 				<nombre>CASSIOPEIA SIRENA</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Cassiopeia_3.jpg">
 				<nombre>CASSIOPEIA MITICA</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Cassiopeia_4.jpg">
 				<nombre>CASSIOPEIA COLMILLO DE JADE</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Cassiopeia_8.jpg">
 				<nombre>CASSIOPEIA ETERNA</nombre>
 			</skin>
 		</skins>
@@ -131,52 +124,52 @@ DRAVEN,EKKO,ELISE-->
 			<habilidad tipo="PASVIA">
 				<nombre>CARNÍVORO</nombre>
 				<descripcion>Cho'Gath recupera vida y maná cada vez que elimina a un enemigo. La cantidad aumenta con el nivel de Cho'Gath.</descripcion>
-				<forma>Humana</forma>
+				<forma>Unica</forma>
 			</habilidad>
-			<habilidad tipo="NORMAL">
+			<habilidad tipo="BASICA">
 				<nombre>RUPTURA</nombre>
 				<descripcion>Resquebraja el suelo de un lugar determinado y lanza por los aires a los enemigos, lo que les inflige daño y les ralentiza.</descripcion>
-				<forma>Humana</forma>
+				<forma>Unica</forma>
 			</habilidad>
-			<habilidad tipo="NORMAL">
+			<habilidad tipo="BASICA">
 				<nombre>GRITO SALVAJE</nombre>
 				<descripcion>Cho'Gath lanza un terrible grito a los enemigos en un cono, lo que les inflige daño mágico y los silencia durante unos pocos segundos.</descripcion>
-				<forma>Humana</forma>
+				<forma>Unica</forma>
 			</habilidad>
-			<habilidad tipo="NORMAL">
+			<habilidad tipo="BASICA">
 				<nombre>PINCHOS MORTÍFEROS</nombre>
 				<descripcion>Los ataques de Cho'Gath liberan pinchos mortales que dañan y ralentizan a todas las unidades enemigas frente a él.</descripcion>
-				<forma>Humana</forma>
+				<forma>Unica</forma>
 			</habilidad>
 			<habilidad tipo="ULTI">
 				<nombre>FESTÍN</nombre>
 				<descripcion>Devora a una unidad enemiga e inflige una gran cantidad de daño verdadero. Si el objetivo muere, Cho'Gath crece y aumenta su vida máxima.</descripcion>
-				<forma>Humana</forma>
+				<forma>Unica</forma>
 			</habilidad>
 		</habilidades>
 		<skins>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Chogath_0.jpg">
 				<nombre>CHO'GATH</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Chogath_1.jpg">
 				<nombre>CHO'GATH PESADILLA</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Chogath_2.jpg">
 				<nombre>CHO'GATH CABALLERO</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Chogath_3.jpg">
 				<nombre>CHO'GATH LAGO NESS</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Chogath_4.jpg">
 				<nombre>CHO'GATH JURASICO</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Chogath_5.jpg">
 				<nombre>CHO'GATH MAQUINA DE GUERRA PERFECTA</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Chogath_6.jpg">
 				<nombre>CHO'GATH PREHISTORICO</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Chogath_7.jpg">
 				<nombre>CHO'GATH ESTRELLA OSCURA</nombre>
 			</skin>
 		</skins>
@@ -194,58 +187,58 @@ DRAVEN,EKKO,ELISE-->
 			<habilidad tipo="PASIVA">
 				<nombre>MUNICIONES HEXTECH</nombre>
 				<descripcion>Los ataques básicos de Corki infligen un porcentaje de su daño como daño mágico en lugar de físico. Cada cierto tiempo, El Paquete llega a la base de Corki. Si lo recoge, recibe temporalmente velocidad de movimiento fuera de combate y mejora Valquiria, que se convierte en Entrega especial.</descripcion>
-				<forma>HUMANA</forma>
+				<forma>Unica</forma>
 			</habilidad>
-			<habilidad tipo="NORMAL">
+			<habilidad tipo="BASICA">
 				<nombre>BOMBA DE FÓSFORO</nombre>
 				<descripcion>Corki lanza una bomba luminosa a la ubicación seleccionada e inflige daño mágico a los enemigos cercanos. Además, este ataque revela a las unidades de la zona durante un tiempo.</descripcion>
-				<forma>HUMANA</forma>
+				<forma>Unica</forma>
 			</habilidad>
-			<habilidad tipo="NORMAL">
+			<habilidad tipo="BASICA">
 				<nombre>VALQUIRIA</nombre>
 				<descripcion>Corki vuela una corta distancia lanzando bombas y dejando tras de sí una estela de fuego, la cual inflige daño a los enemigos que permanezcan dentro.</descripcion>
-				<forma>HUMANA</forma>
+				<forma>Unica</forma>
 			</habilidad>
-			<habilidad tipo="NORMAL">
+			<habilidad tipo="BASICA">
 				<nombre>CAÑÓN DE REPETICIÓN</nombre>
 				<descripcion>El cañón de repetición de Corki abre fuego sobre un área cónica. Los enemigos alcanzados sufren daño y pierden armadura y resistencia mágica.</descripcion>
-				<forma>HUMANA</forma>
+				<forma>Unica</forma>
 			</habilidad>
 			<habilidad tipo="ULTI">
 				<nombre>ANDANADA DE PROYECTILES</nombre>
 				<descripcion>Corki dispara hacia la zona objetivo un proyectil que explota al impactar e inflige daño a los enemigos cercanos. Corki acumula misiles según pasa el tiempo, hasta un máximo determinado. Cada 3 proyectiles sale uno enorme que inflige daño adicional.</descripcion>
-				<forma>HUMANA</forma>
+				<forma>Unica</forma>
 			</habilidad>
 		</habilidades>
 		<skins>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Corki_0.jpg">
 				<nombre>CORKI</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Corki_1.jpg">
 				<nombre>CORKI OVNI</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Corki_2.jpg">
 				<nombre>CORKI TRINEO</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Corki_3.jpg">
 				<nombre>CORKI BARON ROJO</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Corki_4.jpg">
 				<nombre>CORKI TUNEADO</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Corki_5.jpg">
 				<nombre>CORKI A LOMOS DE URF</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Corki_6.jpg">
 				<nombre>CORKI ALA DE DRAGON</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Corki_7.jpg">
 				<nombre>CORKI FNATIC</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Corki_8.jpg">
 				<nombre>CORKI DE RECREATIVA</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Corki_18.jpg">
 				<nombre>CORKI CORGI</nombre>
 			</skin>
 		</skins>
@@ -263,52 +256,55 @@ DRAVEN,EKKO,ELISE-->
 			<habilidad tipo="PASIVA">
 				<nombre>HEMORRAGIA</nombre>
 				<descripcion>Los ataques y habilidades de daño de Darius hacen que los enemigos sangren durante 5 s, lo que les causa daño físico. Se puede acumular hasta 5 veces.</descripcion>
-				<forma>HUMANA</forma>
+				<forma>Unica</forma>
 			</habilidad>
-			<habilidad tipo="NORMAL">
+			<habilidad tipo="BASICA">
 				<nombre>DIEZMAR</nombre>
 				<descripcion>Darius reúne fuerzas y traza un amplio círculo con su hacha. Los enemigos a los que golpee con su hoja sufrirán más daño que los que sean golpeados por el mango. Darius se cura en función al número de campeones enemigos y monstruos gigantes alcanzados por la hoja.</descripcion>
-				<forma>HUMANA</forma>
+				<forma>Unica</forma>
 			</habilidad>
-			<habilidad tipo="NORMAL">
+			<habilidad tipo="BASICA">
 				<nombre>GOLPE ATROZ</nombre>
 				<descripcion>El siguiente ataque de Darius alcanza al enemigo en una arteria vital. Mientras se desangra, su velocidad de movimiento disminuye.</descripcion>
-				<forma>HUMANA</forma>
+				<forma>Unica</forma>
 			</habilidad>
-			<habilidad tipo="NORMAL">
+			<habilidad tipo="BASICA">
 				<nombre>ATRAPAR</nombre>
 				<descripcion>Darius pone a punto su hacha, lo cual provoca que, de forma pasiva, su daño físico ignore un porcentaje de la armadura de su objetivo. Cuando se activa, Darius barre a sus enemigos con el gancho de su hacha y los acerca hacia él.</descripcion>
-				<forma>HUMANA</forma>
+				<forma>Unica</forma>
 			</habilidad>
 			<habilidad tipo="ULTI">
 				<nombre>GUILLOTINA NOXIANA</nombre>
 				<descripcion>Darius salta hacia un campeón enemigo y le asesta un golpe letal que inflige daño verdadero. Este daño se ve incrementado por cada acumulación de Hemorragia que tenga el objetivo. Si el ataque con Guillotina noxiana es letal, se reinicia el enfriamiento durante un corto periodo de tiempo.</descripcion>
-				<forma>HUMANA</forma>
+				<forma>Unica</forma>
 			</habilidad>
 		</habilidades>
 		<skins>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Darius_0.jpg">
 				<nombre>DARIUS</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Darius_1.jpg">
 				<nombre>LORD DARIUS</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Darius_2.jpg">
 				<nombre>DARIUS BIOFORJA</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Darius_3.jpg">
+				<nombre>DARIUS REY TRIBAL</nombre>
+			</skin>
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Darius_4.jpg">
 				<nombre>DARIUS REY DEL MATE</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Darius_8.jpg">
 				<nombre>DARIUS ACADEMIA</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Darius_14.jpg">
 				<nombre>DARIUS NOVA TERRORIFICA</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Darius_15.jpg">
 				<nombre>REY DIOS DARIUS</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Darius_16.jpg">
 				<nombre>DARIUS SOLO ANTE EL PELIGRO</nombre>
 			</skin>
 		</skins>
@@ -326,49 +322,49 @@ DRAVEN,EKKO,ELISE-->
 			<habilidad tipo="PASIVA">
 				<nombre>HOJA LUNAPLATA</nombre>
 				<descripcion>Cada tres golpes, inflige daño mágico adicional a los enemigos cercanos. Después de lanzar un hechizo, Diana obtiene velocidad de ataque en los siguientes tres ataques.</descripcion>
-				<forma>HUMANA</forma>
+				<forma>Unica</forma>
 			</habilidad>
-			<habilidad tipo="NORMAL">
+			<habilidad tipo="BASICA">
 				<nombre>IMPACTO CRECIENTE</nombre>
 				<descripcion>Libera un rayo de energía lunar en un arco que inflige daño mágico. Los enemigos golpeados se verán afectados por Luz lunar, que revela durante 3 s a los objetivos que no estén en sigilo.</descripcion>
-				<forma>HUMANA</forma>
+				<forma>Unica</forma>
 			</habilidad>
-			<habilidad tipo="NORMAL">
+			<habilidad tipo="BASICA">
 				<nombre>CASCADA PÁLIDA</nombre>
 				<descripcion>Diana crea tres esferas que orbitan a su alrededor y explotan al entrar en contacto con enemigos, lo que inflige daño en una zona. También obtiene un escudo temporal que absorbe daño. Si la tercera esfera explota, el escudo absorbe más daño.</descripcion>
-				<forma>HUMANA</forma>
+				<forma>Unica</forma>
 			</habilidad>
-			<habilidad tipo="NORMAL">
+			<habilidad tipo="BASICA">
 				<nombre>TORRENTE LUNAR</nombre>
 				<descripcion>Diana se transforma en la encarnación de la luna más vengativa, se desliza hacia un enemigo y le inflige daño mágico. Torrente lunar no tiene enfriamiento cuando se usa para deslizarse hacia un objetivo afectado por Luz lunar. El efecto de Luz lunar desaparecerá del resto de enemigos, independientemente de haber sido atacados con Torrente lunar o no.</descripcion>
-				<forma>HUMANA</forma>
+				<forma>Unica</forma>
 			</habilidad>
 			<habilidad tipo="ULTI">
 				<nombre>LLUVIA DE LUNA</nombre>
 				<descripcion>Diana revela y atrae a todos los enemigos cercanos, y los ralentiza. Si Diana atrae a un campeón enemigo o más, un torrente de luz lunar se precipita hacia ella tras unos instantes e inflige daño mágico en una zona a su alrededor, que aumenta por cada objetivo adicional atraído con la habilidad.</descripcion>
-				<forma>HUMANA</forma>
+				<forma>Unica</forma>
 			</habilidad>
 		</habilidades>
 		<skins>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Diana_0.jpg">
 				<nombre>DIANA</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Diana_1.jpg">
 				<nombre>DIANA VALQUIRIA OSCURA</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Diana_2.jpg">
 				<nombre>DIANA DIOSA LUNAR</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Diana_3.jpg">
 				<nombre>DIANA INFERNAL</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Diana_11.jpg">
 				<nombre>DIANA LUNA SANGRIENTA</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Diana_12.jpg">
 				<nombre>DIANA AGUAS OSCURAS</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Diana_18.jpg">
 				<nombre>DIANA MATADRAGONES</nombre>
 			</skin>
 		</skins>
@@ -386,61 +382,61 @@ DRAVEN,EKKO,ELISE-->
 			<habilidad tipo="PASIVA">
 				<nombre>SUBIDA DE ADRENALINA</nombre>
 				<descripcion>El Dr. Mundo regenera un 0,3% de su vida máxima por segundo.</descripcion>
-				<forma>HUMANA</forma>
+				<forma>Unica</forma>
 			</habilidad>
-			<habilidad tipo="NORMAL">
+			<habilidad tipo="BASICA">
 				<nombre>CUCHILLA INFECTADA</nombre>
 				<descripcion>Dr. Mundo arroja su cuchilla, que inflige un daño equivalente a una parte de la vida actual de su objetivo y lo ralentiza durante unos instantes. Dr. Mundo disfruta con el sufrimiento de los demás y, cuando acierta la cuchilla, recupera una parte del coste de vida (el doble si el ataque se salda con un asesinato).</descripcion>
-				<forma>HUMANA</forma>
+				<forma>Unica</forma>
 			</habilidad>
-			<habilidad tipo="NORMAL">
+			<habilidad tipo="BASICA">
 				<nombre>LENTA AGONÍA</nombre>
 				<descripcion>Dr. Mundo drena su vida para reducir la duración de las incapacitaciones e infligir daño continuo a los rivales cercanos.</descripcion>
-				<forma>HUMANA</forma>
+				<forma>Unica</forma>
 			</habilidad>
-			<habilidad tipo="NORMAL">
+			<habilidad tipo="BASICA">
 				<nombre>MASOQUISMO</nombre>
 				<descripcion>Dr. Mundo obtiene daño de ataque adicional según la vida que le falte. Con el siguiente ataque básico de Dr. Mundo, el enemigo recibirá daño adicional con un testarazo. Aumenta de forma pasiva la resistencia mágica cuando Dr. Mundo recibe daño mágico o paga un coste de vida.</descripcion>
-				<forma>HUMANA</forma>
+				<forma>Unica</forma>
 			</habilidad>
 			<habilidad tipo="ULTI">
 				<nombre>SADISMO</nombre>
 				<descripcion>Dr. Mundo sacrifica una parte de su vida para aumentar la velocidad de movimiento y obtener un drástico aumento en su regeneración de vida.</descripcion>
-				<forma>HUMANA</forma>
+				<forma>Unica</forma>
 			</habilidad>
 		</habilidades>
 		<skins>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/DrMundo_0.jpg">
 				<nombre>DR. MUNDO</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/DrMundo_1.jpg">
 				<nombre>DR. MUNDO TOXICO</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/DrMundo_2.jpg">
 				<nombre>MISTER MUNDOVERSO</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/DrMundo_3.jpg">
 				<nombre>MUNDO EJECUTIVO</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/DrMundo_4.jpg">
 				<nombre>MUNDO MUNDO</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/DrMundo_5.jpg">
 				<nombre>MUNDO VERDUGO</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/DrMundo_6.jpg">
 				<nombre>MUNDO NACIDO DE LA IRA</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/DrMundo_7.jpg">
 				<nombre>MUNDO TPA</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/DrMundo_8.jpg">
 				<nombre>MUNDO FIESTA EN LA PISCINA</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/DrMundo_9.jpg">
 				<nombre>EL MACHO MUNDO</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/DrMundo_10.jpg">
 				<nombre>MUNDO PRINCIPE GELIDO</nombre>
 			</skin>
 		</skins>
@@ -458,55 +454,55 @@ DRAVEN,EKKO,ELISE-->
 			<habilidad tipo="PASIVA">
 				<nombre>LEAGUE OF DRAVEN</nombre>
 				<descripcion>Draven consigue la Adoración de sus fans cuando atrapa un Hacha giratoria o elimina a un súbdito, monstruo o torre. Asesinar a campeones enemigos le otorga a Draven oro adicional en función de la Adoración que tenga.</descripcion>
-				<forma>HUMANA</forma>
+				<forma>Unica</forma>
 			</habilidad>
-			<habilidad tipo="NORMAL">
+			<habilidad tipo="BASICA">
 				<nombre>HACHA GIRATORIA</nombre>
 				<descripcion>El siguiente ataque de Draven inflige daño físico adicional. Tras golpear al objetivo, el hacha saldrá volando por los aires. Si Draven la atrapa, preparará automáticamente otra Hacha giratoria. Draven puede tener dos Hachas giratorias a la vez.</descripcion>
-				<forma>HUMANA</forma>
+				<forma>Unica</forma>
 			</habilidad>
-			<habilidad tipo="NORMAL">
+			<habilidad tipo="BASICA">
 				<nombre>SUBIDÓN DE ADRENALINA</nombre>
 				<descripcion>Draven aumenta la velocidad de movimiento y la velocidad de ataque. La bonificación de velocidad de movimiento disminuye rápidamente con el tiempo. Al atrapar un Hacha giratoria, se recuperará el enfriamiento de Subidón de adrenalina.</descripcion>
-				<forma>HUMANA</forma>
+				<forma>Unica</forma>
 			</habilidad>
-			<habilidad tipo="NORMAL">
+			<habilidad tipo="BASICA">
 				<nombre>A UN LADO</nombre>
 				<descripcion>Draven lanza sus hachas, lo que inflige daño físico a los objetivos golpeados y los echa a un lado. Los objetivos impactados se ven ralentizados.</descripcion>
-				<forma>HUMANA</forma>
+				<forma>Unica</forma>
 			</habilidad>
 			<habilidad tipo="ULTI">
 				<nombre>ESPIRAL DE MUERTE</nombre>
 				<descripcion>Draven lanza dos hachas gigantescas para infligir daño físico a cada unidad alcanzada. Espiral de muerte va cambiando lentamente de dirección y las hachas regresan a Draven tras golpear a un campeón enemigo. Draven también puede activar esta habilidad mientras las hachas están de camino para hacer que vuelvan antes. Inflige menos daño por cada unidad que golpea y se reinicia cuando el hacha cambia de dirección.</descripcion>
-				<forma>HUMANA</forma>
+				<forma>Unica</forma>
 			</habilidad>
 		</habilidades>
 		<skins>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Draven_0.jpg">
 				<nombre>DRAVEN</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Draven_1.jpg">
 				<nombre>DRAVEN USURPADOR DE ALMAS</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Draven_2.jpg">
 				<nombre>DRAVEN GLADIADOR</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Draven_3.jpg">
 				<nombre>DRAVEN LOCUTOR ESTRELLA</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Draven_4.jpg">
 				<nombre>DRAVEN FIESTA EN LA PISCINA</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Draven_5.jpg">
 				<nombre>DRAVEN CAZADOR DE BESTIAS</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Draven_6.jpg">
 				<nombre>DRAVEN DRAVEN</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Draven_12.jpg">
 				<nombre>DRAVEN PAPA NOEL</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Draven_13.jpg">
 				<nombre>DRAVEN REINOS MECHA</nombre>
 			</skin>
 		</skins>
@@ -524,49 +520,49 @@ DRAVEN,EKKO,ELISE-->
 			<habilidad tipo="PASIVA">
 				<nombre>RESONANCIA Z</nombre>
 				<descripcion>El Dispositivo Z de Ekko carga sus hechizos y ataques de energía temporal. De cada tres golpes, el último causa daño adicional. Además, si el objetivo es un campeón, Ekko gana velocidad de movimiento.</descripcion>
-				<forma>HUMANA</forma>
+				<forma>Unica</forma>
 			</habilidad>
-			<habilidad tipo="NORMAL">
+			<habilidad tipo="BASICA">
 				<nombre>ENGRANAJE TEMPORAL</nombre>
 				<descripcion>Ekko lanza una granada temporal que, al alcanzar a un campeón enemigo, genera un campo de distorsión cronológica. Las unidades sorprendidas en su interior sufren daño y quedan ralentizadas. Al cabo de unos instantes, la granada regresa a Ekko y daña a todo cuanto se encuentre en su camino.</descripcion>
-				<forma>HUMANA</forma>
+				<forma>Unica</forma>
 			</habilidad>
-			<habilidad tipo="NORMAL">
+			<habilidad tipo="BASICA">
 				<nombre>CONVERGENCIA PARALELA</nombre>
 				<descripcion>Los ataques básicos de Ekko infligen daño mágico adicional a objetivos con poca vida. Con Convergencia paralela puede romper la línea temporal y, al cabo de unos segundos, crea una anomalía que ralentiza a los enemigos situados dentro. Si el propio Ekko entra en ella, recibe un escudo y aturde a los enemigos al dejarlos congelados en el tiempo.</descripcion>
-				<forma>HUMANA</forma>
+				<forma>Unica</forma>
 			</habilidad>
-			<habilidad tipo="NORMAL">
+			<habilidad tipo="BASICA">
 				<nombre>SALTO DE FASE</nombre>
 				<descripcion>Ekko rueda por el suelo en un movimiento evasivo mientras activa su Dispositivo Z. Su siguiente ataque inflige daño adicional y distorsiona la realidad para teleportarlo hasta su objetivo.</descripcion>
-				<forma>HUMANA</forma>
+				<forma>Unica</forma>
 			</habilidad>
 			<habilidad tipo="ULTI">
 				<nombre>FISURA TEMPORAL</nombre>
 				<descripcion>Ekko fragmenta su línea temporal y se vuelve imposible de seleccionar como objetivo mientras regresa a un momento pasado más favorable. Reaparece en el mismo sitio donde se encontraba unos segundos antes y recupera una parte de la vida que hubiera perdido en ese tiempo. Los enemigos situados cerca de su zona de llegada reciben muchísimo daño.</descripcion>
-				<forma>HUMANA</forma>
+				<forma>Unica</forma>
 			</habilidad>
 		</habilidades>
 		<skins>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ekko_0.jpg">
 				<nombre>EKKO</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ekko_1.jpg">
 				<nombre>EKKO TORMENTA DE ARENA</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ekko_2.jpg">
 				<nombre>EKKO ACADEMIA</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ekko_3.jpg">
 				<nombre>PROYECTO: EKKO</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ekko_11.jpg">
 				<nombre>EKKO SKT T1</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ekko_12.jpg">
 				<nombre>EKKO TRUCO O TRATO</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ekko_19.jpg">
 				<nombre>EKKO TRUE DAMAGE</nombre>
 			</skin>
 		</skins>
@@ -591,32 +587,32 @@ DRAVEN,EKKO,ELISE-->
 				<descripcion>Los ataques básicos infligen daño mágico adicional y le devuelven vida a Elise.</descripcion>
 				<forma>ARAÑA</forma>
 			</habilidad>
-			<habilidad tipo="NORMAL">
+			<habilidad tipo="BASICA">
 				<nombre>NEUROTOXINA</nombre>
 				<descripcion>Inflige daño según la cantidad de vida que tenga el objetivo.</descripcion>
 				<forma>HUMANA</forma>
 			</habilidad>
-			<habilidad tipo="NORMAL">
+			<habilidad tipo="BASICA">
 				<nombre>MORDISCO VENENOSO</nombre>
 				<descripcion>Embiste a un enemigo e inflige daño según la cantidad de vida que tenga.</descripcion>
 				<forma>ARAÑA</forma>
 			</habilidad>
-			<habilidad tipo="NORMAL">
+			<habilidad tipo="BASICA">
 				<nombre>ARAÑA VOLÁTIL</nombre>
 				<descripcion>Libera una araña cargada de veneno que explota al acercarse a un objetivo.</descripcion>
 				<forma>HUMANA</forma>
 			</habilidad>
-			<habilidad tipo="NORMAL">
+			<habilidad tipo="BASICA">
 				<nombre>FRENESÍ ARÁCNIDO</nombre>
 				<descripcion>Elise y sus arañas aumentan su velocidad de ataque.</descripcion>
 				<forma>ARAÑA</forma>
 			</habilidad>
-			<habilidad tipo="NORMAL">
+			<habilidad tipo="BASICA">
 				<nombre>MARAÑA</nombre>
 				<descripcion>Aturde a la primera unidad enemiga impactada y la revela si no se halla en sigilo.</descripcion>
 				<forma>HUMANA</forma>
 			</habilidad>
-			<habilidad tipo="NORMAL">
+			<habilidad tipo="BASICA">
 				<nombre>RÁPEL</nombre>
 				<descripcion>Elise y sus arañas ascienden en el aire y luego descienden sobre un objetivo enemigo. Una vez ha descendido, el daño y la curación adicionales de Reina de las arañas aumentan.</descripcion>
 				<forma>ARAÑA</forma>
@@ -628,22 +624,22 @@ DRAVEN,EKKO,ELISE-->
 			</habilidad>
 		</habilidades>
 		<skins>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Elise_0.jpg">
 				<nombre>ELISE</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Elise_1.jpg">
 				<nombre>ELISE PETALO DE LA MUERTE</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Elise_2.jpg">
 				<nombre>ELISE VICTORIOSA</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Elise_3.jpg">
 				<nombre>ELISE LUNA SANGRIENTA</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Elise_4.jpg">
 				<nombre>ELISE SKT T1</nombre>
 			</skin>
-			<skin url="">
+			<skin url="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Elise_5.jpg">
 				<nombre>ELISE SUPERGALACTICA</nombre>
 			</skin>
 		</skins>
